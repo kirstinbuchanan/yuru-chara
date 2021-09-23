@@ -1,23 +1,18 @@
-import React, { setState } from 'react';
+import React, { useState } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   TouchableOpacity,
   FlatList,
+  TextInput,
 } from 'react-native';
 import Mascot from '../components/mascot.card';
 
 const Home = ({ navigation, mascots }) => {
-  const [search, SetSearch] = setState('');
-
   return (
     <View style={styles.list}>
-      <SearchBar
-        placeholder="Type Here..."
-        onChangeText={SetSearch}
-        value={search}
-      />
+      <TextInput style={styles.textInput} placeholder="Search..." />
       {mascots.length < 1 ? (
         <Text>loading...</Text>
       ) : (
@@ -46,6 +41,14 @@ const styles = StyleSheet.create({
     color: 'black',
     fontSize: 16,
     backgroundColor: 'pink',
+  },
+  textInput: {
+    height: 40,
+    borderWidth: 1,
+    paddingLeft: 20,
+    margin: 5,
+    borderColor: 'black',
+    backgroundColor: 'white',
   },
 });
 

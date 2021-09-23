@@ -1,16 +1,16 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 
-const MascotCard = (props) => {
+const MascotCard = ({ name, mascot }) => {
   return (
     <View style={styles.box}>
       <Image
         style={{ height: 300, width: 400, resizeMode: 'center' }}
         source={{
-          uri: 'https://vignette.wikia.nocookie.net/kancolle/images/a/a2/PANIC_MODE.png/revision/latest?cb=20160801155439',
+          uri: mascot.picture,
         }}
       />
-      <Text style={styles.text}>{props.name}</Text>
+      <Text style={styles.text}>{name}</Text>
     </View>
   );
 };
