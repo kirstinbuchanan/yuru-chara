@@ -18,7 +18,7 @@ export default function App() {
         console.log(err);
       });
 
-    const filtered = result.sort((a, b) => {
+    const sorted = result.sort((a, b) => {
       var nameA = a.name.toUpperCase();
       var nameB = b.name.toUpperCase();
       if (nameA < nameB) {
@@ -30,24 +30,8 @@ export default function App() {
 
       return 0;
     });
-    console.log(filtered);
-    setMascots(filtered);
+    setMascots(sorted);
   }
-
-  const searchFilter = (e) => {
-    const keyword = e.target.value;
-
-    if (keyword !== '') {
-      const results = mascots.filter((mascot) => {
-        return mascot.name.toLowerCase().startsWith(keyword.toLowerCase());
-      });
-      setFilteredMascots(results);
-    } else {
-      setFilteredMascots(mascots);
-    }
-
-    setMascots(mascots);
-  };
 
   useEffect(() => {
     handleFetchMascots();
@@ -57,7 +41,14 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home">
-          {(props) => <Home mascots={mascots} {...props} />}
+          {(props) => (
+            <Home
+              mascots={mascots}
+              filteredMascots={filteredMascots}
+              setFilteredMascots={setFilteredMascots}
+              {...props}
+            />
+          )}
         </Stack.Screen>
         <Stack.Screen name="MascotDetails" component={MascotDetails} />
       </Stack.Navigator>

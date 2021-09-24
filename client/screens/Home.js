@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -7,17 +7,48 @@ import {
   FlatList,
   TextInput,
 } from 'react-native';
-import Mascot from '../components/mascot.card';
+import Mascot from '../components/MascotCard';
 
-const Home = ({ navigation, mascots }) => {
+const Home = ({ navigation, mascots, filteredMascots, setFilteredMascots }) => {
+  const [searchParam, setSearch] = useState('');
+
+  // const searchFilter = (e) => {
+
+  // };
+
+  useEffect(() => {
+    // console.log('e', e);
+    // setSearch(e);
+
+    const keyword = searchParam;
+
+    if (keyword !== '') {
+      const results = mascots.filter((mascot) => {
+        return mascot.name.toLowerCase().startsWith(keyword.toLowerCase());
+      });
+      // when it's filterd
+      setFilteredMascots(results);
+    } else {
+      //when it's empty
+      setFilteredMascots(mascots);
+    }
+    console.log('mascots', mascots, mascots.length);
+    console.log('filteredMascots', filteredMascots, filteredMascots.length);
+  }, [searchParam]);
+
   return (
     <View style={styles.list}>
-      <TextInput style={styles.textInput} placeholder="Search..." />
+      <TextInput
+        style={styles.textInput}
+        onChangeText={setSearch}
+        placeholder="Search..."
+        value={searchParam}
+      />
       {mascots.length < 1 ? (
-        <Text>loading...</Text>
+        <Text> Loading...</Text>
       ) : (
         <FlatList
-          data={mascots}
+          data={filteredMascots}
           keyExtractor={(item) => item._id}
           renderItem={({ item }) => (
             <TouchableOpacity

@@ -5,9 +5,9 @@ import * as WebBrowser from 'expo-web-browser';
 const MascotDetails = ({ route }) => {
   const { mascot } = route.params;
 
-  // handleOpenWithWebBrowser = () => {
-  //   WebBrowser.openBrowserAsync();
-  // };
+  const handleOpenWithWebBrowser = () => {
+    WebBrowser.openBrowserAsync(mascot.officialSite);
+  };
 
   return (
     <View>
@@ -19,9 +19,10 @@ const MascotDetails = ({ route }) => {
       />
       <Text>Name: {mascot.name}</Text>
       <Text>Japanese: {mascot.japanese}</Text>
+      <Text>Representing: {mascot.mascot}</Text>
       <Text>Prefecture: {mascot.prefecture}</Text>
       <Text>Description: {mascot.description}</Text>
-      <Button title="Go to mascot site" />
+      <Button title="Go to site" onPress={() => handleOpenWithWebBrowser()} />
     </View>
   );
 };
