@@ -8,7 +8,6 @@ import {
   StyleSheet,
 } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
-import Carousel from 'react-native-snap-carousel';
 
 const MascotDetails = ({ route }) => {
   const { mascot } = route.params;
@@ -21,32 +20,29 @@ const MascotDetails = ({ route }) => {
     <View style={styles.background}>
       <Button title="Back" />
       <Button title=" Favourite" />
-      <Text style={styles.heading}>{mascot.name}</Text>
-      <Text style={styles.japanese}>{mascot.japanese}</Text>
+      <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
+      <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
       <Image
-        style={{
-          height: 300,
-          width: 400,
-          resizeMode: 'center',
-        }}
+        style={styles.mascotImage}
         source={{
           uri: mascot.picture,
         }}
       />
-
-      <Text>Representing: {mascot.mascot}</Text>
-      <Text>City:{mascot.city}</Text>
-      <Text>Prefecture: {mascot.prefecture}</Text>
-      <Text>Description: {mascot.description}</Text>
-      {mascot.officialSite < 1 ? (
-        <Text></Text>
-      ) : (
-        <Button
-          title="Go to Offical Site"
-          onPress={() => handleOpenWithWebBrowser()}
-        />
-      )}
-      <Button title="Edit" />
+      <View style={styles.mascotAbout}>
+        <Text>Representing: {mascot.mascot}</Text>
+        <Text>City:{mascot.city}</Text>
+        <Text>Prefecture: {mascot.prefecture}</Text>
+        <Text>Description: {mascot.description}</Text>
+        {mascot.officialSite < 1 ? (
+          <Text></Text>
+        ) : (
+          <Button
+            title="Go to Offical Site"
+            onPress={() => handleOpenWithWebBrowser()}
+          />
+        )}
+        <Button title="Edit" />
+      </View>
     </View>
   );
 };
@@ -65,6 +61,18 @@ const styles = StyleSheet.create({
   },
   background: {
     backgroundColor: 'pink',
+    zIndex: -1,
+  },
+  mascotImage: {
+    height: 300,
+    width: 400,
+    resizeMode: 'center',
+    zIndex: 3,
+    borderRadius: 30,
+  },
+  mascotAbout: {
+    backgroundColor: 'white',
+    zIndex: 2,
   },
 });
 

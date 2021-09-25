@@ -1,14 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  FlatList,
-  TextInput,
-  Image,
-  Button,
-} from 'react-native';
+import { View, Text, StyleSheet, TextInput } from 'react-native';
 
 import DropDownPicker from 'react-native-dropdown-picker';
 import MascotList from '../components/MascotList';

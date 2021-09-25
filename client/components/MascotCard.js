@@ -18,7 +18,6 @@ const MascotCard = ({ name, mascot }) => {
 const styles = StyleSheet.create({
   box: {
     padding: 10,
-    borderRadius: 3,
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 10,
