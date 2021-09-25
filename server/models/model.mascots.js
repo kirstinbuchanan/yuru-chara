@@ -20,7 +20,7 @@ const mascotSchema = new mongoose.Schema({
     required: false,
   },
   status: String,
-  'official site': String,
+  officalSite: String,
   picture: String,
 });
 

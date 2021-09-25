@@ -6,20 +6,25 @@ import {
   TouchableOpacity,
   FlatList,
   TextInput,
+  Image,
+  Button,
 } from 'react-native';
-import Mascot from '../components/MascotCard';
+
+import DropDownPicker from 'react-native-dropdown-picker';
+import MascotList from '../components/MascotList';
 
 const Home = ({ navigation, mascots, filteredMascots, setFilteredMascots }) => {
   const [searchParam, setSearch] = useState('');
-
-  // const searchFilter = (e) => {
-
-  // };
+  const [filterParam, setFilter] = useState(null);
+  const [filterItems, setFilterItems] = useState([
+    { label: 'Name', value: 'name' },
+    { label: 'Japanese', value: 'japanese' },
+    { label: 'City', value: 'city' },
+    { label: 'Prefecture', value: 'prefecture' },
+  ]);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    // console.log('e', e);
-    // setSearch(e);
-
     const keyword = searchParam;
 
     if (keyword !== '') {
@@ -32,32 +37,36 @@ const Home = ({ navigation, mascots, filteredMascots, setFilteredMascots }) => {
       //when it's empty
       setFilteredMascots(mascots);
     }
-    console.log('mascots', mascots, mascots.length);
-    console.log('filteredMascots', filteredMascots, filteredMascots.length);
   }, [searchParam]);
 
   return (
     <View style={styles.list}>
-      <TextInput
-        style={styles.textInput}
-        onChangeText={setSearch}
-        placeholder="Search..."
-        value={searchParam}
-      />
       {mascots.length < 1 ? (
-        <Text> Loading...</Text>
+        <Text></Text>
       ) : (
-        <FlatList
-          data={filteredMascots}
-          keyExtractor={(item) => item._id}
-          renderItem={({ item }) => (
-            <TouchableOpacity
-              onPress={() => navigation.push('MascotDetails', { mascot: item })}
-            >
-              <Mascot name={item.name} mascot={item} />
-            </TouchableOpacity>
-          )}
-        />
+        <View>
+          <Text>Yuru Chara Search</Text>
+          <DropDownPicker
+            style={styles.filter}
+            open={open}
+            value={filterParam}
+            items={filterItems}
+            setOpen={setOpen}
+            setItems={setFilterItems}
+            setValue={setFilter}
+            placeholder="   Filter"
+          />
+          <TextInput
+            style={styles.textInput}
+            onChangeText={setSearch}
+            placeholder="Search "
+            value={searchParam}
+          />
+          <MascotList
+            navigation={navigation}
+            filteredMascots={filteredMascots}
+          />
+        </View>
       )}
     </View>
   );
@@ -65,8 +74,8 @@ const Home = ({ navigation, mascots, filteredMascots, setFilteredMascots }) => {
 
 const styles = StyleSheet.create({
   list: {
-    padding: 10,
-    flex: 1,
+    paddingTop: 30,
+    backgroundColor: '#edc4b4',
   },
   text: {
     color: 'black',
@@ -78,8 +87,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     paddingLeft: 20,
     margin: 5,
-    borderColor: 'black',
     backgroundColor: 'white',
+    borderRadius: 30,
+  },
+  filter: {
+    borderRadius: 30,
+    marginLeft: 5,
+    marginRight: 5,
   },
 });
 

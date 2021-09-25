@@ -5,7 +5,7 @@ const MascotCard = ({ name, mascot }) => {
   return (
     <View style={styles.box}>
       <Image
-        style={{ height: 300, width: 400, resizeMode: 'center' }}
+        style={styles.image}
         source={{
           uri: mascot.picture,
         }}
@@ -31,14 +31,12 @@ const styles = StyleSheet.create({
     borderStyle: 'solid',
     borderWidth: 1,
     borderRadius: 30,
+    backgroundColor: 'white',
   },
+  image: { height: 300, width: 400, resizeMode: 'contain' },
   text: {
     fontWeight: 'bold',
     color: 'black',
-  },
-  logo: {
-    width: 66,
-    height: 50,
   },
 });
 export default MascotCard;

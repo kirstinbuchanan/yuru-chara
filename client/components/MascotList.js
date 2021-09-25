@@ -1,8 +1,12 @@
 import React from 'react';
-const MascotList = (props) => {
+import Mascot from '../components/MascotCard';
+import { FlatList, TouchableOpacity } from 'react-native';
+
+const MascotList = ({ filteredMascots, navigation }) => {
   return (
     <FlatList
-      data={mascots}
+      data={filteredMascots}
+      showsHorizontalScrollIndicator={false}
       keyExtractor={(item) => item._id}
       renderItem={({ item }) => (
         <TouchableOpacity
