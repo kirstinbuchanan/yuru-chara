@@ -1,12 +1,18 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 const FavouriteList = () => {
   return (
-    <View>
-      <Text>Hello world!</Text>
+    <View style={styles.background}>
+      <Text>Favourites</Text>
     </View>
   );
 };
 
+const styles = StyleSheet.create({
+  background: {
+    backgroundColor: 'pink',
+    marginTop: 30,
+  },
+});
 export default FavouriteList;

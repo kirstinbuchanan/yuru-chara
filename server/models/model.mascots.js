@@ -22,6 +22,7 @@ const mascotSchema = new mongoose.Schema({
   status: String,
   officalSite: String,
   picture: String,
+  favourite: Boolean,
 });
 
 const Mascot = mongoose.model('mascots', mascotSchema);

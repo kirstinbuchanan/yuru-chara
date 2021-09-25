@@ -5,8 +5,9 @@ import { FlatList, TouchableOpacity } from 'react-native';
 const MascotList = ({ filteredMascots, navigation }) => {
   return (
     <FlatList
-      data={filteredMascots}
+      showsVerticalScrollIndicator={false}
       showsHorizontalScrollIndicator={false}
+      data={filteredMascots}
       keyExtractor={(item) => item._id}
       renderItem={({ item }) => (
         <TouchableOpacity

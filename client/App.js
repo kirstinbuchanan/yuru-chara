@@ -5,11 +5,13 @@ import Home from './screens/Home';
 import MascotDetails from './screens/MascotDetails';
 import { createStackNavigator } from '@react-navigation/stack';
 import { fetchMascots } from './ApiClientService';
+import FavouriteList from './screens/FavouriteList';
 const Stack = createStackNavigator();
 
 export default function App() {
   const [mascots, setMascots] = useState([]);
-  const [filteredMascots, setFilteredMascots] = useState(mascots);
+  const [favourites, setFavourites] = useState([]);
+  const [isLiked, setIsLiked] = useState(false);
 
   async function getMascots() {
     const result = await fetchMascots();
@@ -40,16 +42,12 @@ export default function App() {
         }}
       >
         <Stack.Screen name="Home">
-          {(props) => (
-            <Home
-              mascots={mascots}
-              filteredMascots={filteredMascots}
-              setFilteredMascots={setFilteredMascots}
-              {...props}
-            />
-          )}
+          {(props) => <Home mascots={mascots} {...props} />}
         </Stack.Screen>
         <Stack.Screen name="MascotDetails" component={MascotDetails} />
+        <Stack.Screen name="FavouriteList">
+          {(props) => <FavouriteList favorites={favourites} {...props} />}
+        </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );

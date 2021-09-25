@@ -17,25 +17,27 @@ const MascotCard = ({ name, mascot }) => {
 
 const styles = StyleSheet.create({
   box: {
-    padding: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 10,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.3,
-    shadowRadius: 1,
-    elevation: 2,
-    borderColor: 'pink',
-    borderStyle: 'solid',
-    borderWidth: 1,
     borderRadius: 30,
+    margin: 10,
+    paddingTop: 5,
     backgroundColor: 'white',
   },
-  image: { height: 300, width: 400, resizeMode: 'contain' },
+  image: {
+    height: 250,
+    width: 350,
+    resizeMode: 'contain',
+    borderRadius: 45,
+    padding: 10,
+  },
   text: {
     fontWeight: 'bold',
+    margin: 10,
+    fontSize: 24,
     color: 'black',
+    textAlign: 'center',
+    paddingBottom: 10,
   },
 });
 export default MascotCard;

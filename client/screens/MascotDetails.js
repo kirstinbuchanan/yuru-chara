@@ -2,10 +2,10 @@ import React from 'react';
 import {
   Text,
   View,
-  Stylesheet,
   Image,
   Button,
   StyleSheet,
+  TouchableOpacity,
 } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
 
@@ -16,10 +16,17 @@ const MascotDetails = ({ route }) => {
     WebBrowser.openBrowserAsync(mascot.officialSite);
   };
 
+  const makeFavourite = (mascot) => {
+    const favouriteMascot = { ...mascot, favourite: true };
+    return favouriteMascot;
+  };
+
   return (
     <View style={styles.background}>
       <Button title="Back" />
-      <Button title=" Favourite" />
+      <TouchableOpacity onPress={() => makeFavourite}>
+        {mascot.favourite ? <Text>Unlike</Text> : <Text>Like</Text>}
+      </TouchableOpacity>
       <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
       <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
       <Image
