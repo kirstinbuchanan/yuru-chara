@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TextInput } from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
 import MascotList from '../components/MascotList';
 
-const Home = ({ navigation, mascots, filteredMascots, setFilteredMascots }) => {
+const Home = ({ navigation, mascots, setFilteredMascots }) => {
   const [searchParam, setSearch] = useState('');
   const [filterParam, setFilter] = useState(null);
   const [filterItems, setFilterItems] = useState([
@@ -15,44 +15,43 @@ const Home = ({ navigation, mascots, filteredMascots, setFilteredMascots }) => {
   ]);
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    const keyword = searchParam;
-
-    if (keyword !== '') {
-      const results = mascots.filter((mascot) => {
-        return mascot.name.toLowerCase().startsWith(keyword.toLowerCase());
-      });
-      // when it's filterd
-      setFilteredMascots(results);
+  const filterMascots = () => {
+    if (!searchParam || !filterParam) {
+      return mascots;
     } else {
-      //when it's empty
-      setFilteredMascots(mascots);
+      return mascots.filter((mascot) => {
+        return mascot[filterParam]
+          ?.toLowerCase()
+          .startsWith(searchParam.toLowerCase());
+      });
     }
-  }, [searchParam]);
+  };
+
+  const filteredMascots = filterMascots();
 
   return (
     <View style={styles.list}>
-      {mascots.length < 1 ? (
-        <Text></Text>
+      <Text>Yuru Chara Search</Text>
+      <DropDownPicker
+        style={styles.filter}
+        open={open}
+        value={filterParam}
+        items={filterItems}
+        setOpen={setOpen}
+        setItems={setFilterItems}
+        setValue={setFilter}
+        placeholder="   Filter"
+      />
+      <TextInput
+        style={styles.textInput}
+        onChangeText={setSearch}
+        placeholder="Search "
+        value={searchParam}
+      />
+      {filteredMascots.length < 1 ? (
+        <Text> No Mascots...</Text>
       ) : (
         <View>
-          <Text>Yuru Chara Search</Text>
-          <DropDownPicker
-            style={styles.filter}
-            open={open}
-            value={filterParam}
-            items={filterItems}
-            setOpen={setOpen}
-            setItems={setFilterItems}
-            setValue={setFilter}
-            placeholder="   Filter"
-          />
-          <TextInput
-            style={styles.textInput}
-            onChangeText={setSearch}
-            placeholder="Search "
-            value={searchParam}
-          />
           <MascotList
             navigation={navigation}
             filteredMascots={filteredMascots}
