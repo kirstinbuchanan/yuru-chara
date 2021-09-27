@@ -6,6 +6,7 @@ import {
   Button,
   StyleSheet,
   TouchableOpacity,
+  ScrollView,
 } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
 import { Icon } from 'react-native-elements';
@@ -33,7 +34,12 @@ const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
 
   return (
     <View style={styles.background}>
-      <Icon name="up" type="antdesign" color="black" />
+      <Icon
+        style={{ marginTop: 10 }}
+        name="up"
+        type="antdesign"
+        color="white"
+      />
       <View style={styles.top}>
         {/* <TouchableOpacity onPress={toggleHandle}>
           {isLiked ? (
@@ -45,18 +51,28 @@ const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
       </View>
-      <Image
-        style={styles.mascotImage}
-        source={{
-          uri: mascot.picture,
+      <View
+        style={{
+          justifyContent: 'center',
+          alignItems: 'center',
+          zIndex: 10,
         }}
-      />
-      <View style={styles.mascotAbout}>
+      >
+        <Image
+          style={styles.mascotImage}
+          source={{
+            uri: mascot.picture,
+          }}
+        />
+      </View>
+      <ScrollView style={styles.mascotAbout}>
         <View style={styles.mascotText}>
-          <Text>Representing: {mascot.mascot}</Text>
-          <Text>City: {mascot.city}</Text>
-          <Text>Prefecture: {mascot.prefecture}</Text>
-          <Text>Description: {mascot.description}</Text>
+          <Text style={{ lineHeight: 25, fontSize: 18 }}>
+            {'\n'} Representing: {mascot.mascot}
+            {'\n'} City: {mascot.city}
+            {'\n'} Prefecture: {mascot.prefecture}
+            {'\n'} Description: {mascot.description}{' '}
+          </Text>
           {!mascot.officialSite ? (
             <Text style={{ textAlign: 'center' }}>🌸</Text>
           ) : (
@@ -66,14 +82,16 @@ const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
             />
           )}
         </View>
-      </View>
+      </ScrollView>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   heading: {
-    marginLeft: 20,
+    marginTop: 10,
+    marginLeft: 30,
+    color: 'white',
   },
   name: {
     fontSize: 24,
@@ -89,23 +107,21 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   mascotImage: {
-    height: 300,
-    width: 400,
-    resizeMode: 'center',
-    justifyContent: 'center',
-    zIndex: 10,
-    borderRadius: 30,
-    borderColor: 'red',
+    marginTop: 20,
+    height: 250,
+    width: 250,
+    resizeMode: 'contain',
+    borderColor: 'grey',
     borderWidth: 1,
+    borderRadius: 50,
+    backgroundColor: 'white',
   },
-  top: {
-    flex: 1,
-  },
-  mascotText: { margin: 30 },
+  mascotText: { margin: 30, marginTop: 40 },
   mascotAbout: {
     backgroundColor: 'white',
-    zIndex: 1,
-    flex: 1,
+    zIndex: 5,
+    flex: 2,
+    marginTop: -50,
     borderTopStartRadius: 30,
     borderTopEndRadius: 30,
   },
