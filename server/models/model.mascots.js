@@ -15,7 +15,7 @@ const mascotSchema = new mongoose.Schema({
   },
   prefecture: String,
   City: String,
-  Description: {
+  description: {
     type: String,
     required: false,
   },

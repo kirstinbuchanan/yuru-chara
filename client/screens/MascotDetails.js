@@ -14,7 +14,6 @@ const MascotDetails = ({ route }) => {
   const { mascot } = route.params;
 
   const handleOpenWithWebBrowser = () => {
-    console.log(mascot);
     WebBrowser.openBrowserAsync(mascot.officialSite);
   };
 
@@ -23,7 +22,11 @@ const MascotDetails = ({ route }) => {
       <Icon name="arrow-back-ios" type="materialicons" color="black" />
       <View style={styles.top}>
         <TouchableOpacity>
-          <Icon name="heart" type="antdesign" color="red" />
+          {mascot.favourite ? (
+            <Icon name="heart" type="antdesign" color="red" />
+          ) : (
+            <Icon name="hearto" type="antdesign" color="red" />
+          )}
         </TouchableOpacity>
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
@@ -48,7 +51,6 @@ const MascotDetails = ({ route }) => {
               onPress={() => handleOpenWithWebBrowser()}
             />
           )}
-          {/* <Button title="Edit" /> */}
         </View>
       </View>
     </View>
