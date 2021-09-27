@@ -32,13 +32,13 @@ const MascotDetails = ({ route }) => {
       </TouchableOpacity> */}
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
-        <Image
-          style={styles.mascotImage}
-          source={{
-            uri: mascot.picture,
-          }}
-        />
       </View>
+      <Image
+        style={styles.mascotImage}
+        source={{
+          uri: mascot.picture,
+        }}
+      />
       <View style={styles.mascotAbout}>
         <View style={styles.mascotText}>
           <Text>Representing: {mascot.mascot}</Text>
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   },
   background: {
     backgroundColor: 'pink',
-    zIndex: -1,
+    zIndex: 0,
     height: '100%',
   },
   mascotImage: {

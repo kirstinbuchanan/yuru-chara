@@ -6,12 +6,13 @@ import MascotDetails from './screens/MascotDetails';
 import { createStackNavigator } from '@react-navigation/stack';
 import { fetchMascots } from './ApiClientService';
 import FavouriteList from './screens/FavouriteList';
+import YuruChara from './splashscreens/YuruChara';
 const Stack = createStackNavigator();
 
 export default function App() {
   const [mascots, setMascots] = useState([]);
   const [favourites, setFavourites] = useState([]);
-  const [isLiked, setIsLiked] = useState(false);
+  // const [isLiked, setIsLiked] = useState(false);
 
   async function getMascots() {
     const result = await fetchMascots();
@@ -41,6 +42,7 @@ export default function App() {
           headerShown: false,
         }}
       >
+        <Stack.Screen name="YuruChara" component={YuruChara} />
         <Stack.Screen name="Home">
           {(props) => <Home mascots={mascots} {...props} />}
         </Stack.Screen>
