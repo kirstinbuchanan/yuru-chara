@@ -14,6 +14,10 @@ const Stack = createStackNavigator();
 export default function App() {
   const [mascots, setMascots] = useState([]);
 
+  const [favourites, setFavourites] = useState([]);
+
+  const [isLiked, setIsLiked] = useState(false);
+
   async function getMascots() {
     const result = await fetchMascots();
 
@@ -31,16 +35,20 @@ export default function App() {
     setMascots(sorted);
   }
 
+  const faves = mascots.filter((mascot) => mascot.favourite);
+
   useEffect(() => {
     getMascots();
+    setFavourites(faves);
   }, []);
+
   return (
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
+          presentation: 'modal',
         }}
-        mode="modal"
       >
         <Stack.Screen
           name="YuruChara"
@@ -61,10 +69,28 @@ export default function App() {
           {(props) => <AddNewMascot getMascots={getMascots} {...props} />}
         </Stack.Screen>
         <Stack.Screen name="MascotDetails">
-          {(props) => <MascotDetails {...props} />}
+          {(props) => (
+            <MascotDetails
+              mascots={mascots}
+              getMascots={getMascots}
+              setFavourites={setFavourites}
+              isLiked={isLiked}
+              setIsLiked={setIsLiked}
+              {...props}
+            />
+          )}
         </Stack.Screen>
         <Stack.Screen name="FavouriteList">
-          {(props) => <FavouriteList {...props} />}
+          {(props) => (
+            <FavouriteList
+              getMascots={getMascots}
+              mascots={mascots}
+              favourites={favourites}
+              isLiked={isLiked}
+              setIsLiked={setIsLiked}
+              {...props}
+            />
+          )}
         </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>

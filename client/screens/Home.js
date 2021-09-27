@@ -143,7 +143,6 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     borderWidth: 0,
   },
-  mascotList: {},
   test: {
     height: 470,
   },

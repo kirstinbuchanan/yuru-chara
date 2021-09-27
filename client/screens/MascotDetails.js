@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Text,
   View,
@@ -9,25 +9,39 @@ import {
 } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
 import { Icon } from 'react-native-elements';
+import { toggleFavourites } from '../ApiClientService';
 
-const MascotDetails = ({ route }) => {
+const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
   const { mascot } = route.params;
 
   const handleOpenWithWebBrowser = () => {
     WebBrowser.openBrowserAsync(mascot.officialSite);
   };
 
+  const toggleHandle = async () => {
+    console.log('toggleHandle', mascot);
+    if (!mascot.favourite) {
+      setIsLiked(true);
+      await toggleFavourites(mascot);
+      getMascots();
+    } else {
+      setIsLiked(false);
+      await toggleFavourites(mascot);
+      getMascots();
+    }
+  };
+
   return (
     <View style={styles.background}>
-      <Icon name="arrow-back-ios" type="materialicons" color="black" />
+      <Icon name="up" type="antdesign" color="black" />
       <View style={styles.top}>
-        <TouchableOpacity>
-          {mascot.favourite ? (
+        {/* <TouchableOpacity onPress={toggleHandle}>
+          {isLiked ? (
             <Icon name="heart" type="antdesign" color="red" />
           ) : (
             <Icon name="hearto" type="antdesign" color="red" />
           )}
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
       </View>

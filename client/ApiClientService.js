@@ -20,7 +20,21 @@ async function addMascot(mascot) {
     .catch((err) => console.log(err));
 }
 
+async function toggleFavourites(mascot) {
+  const id = mascot._id;
+  return fetch(`${MASCOTS_URL}/${id}`, {
+    method: 'PUT',
+    body: JSON.stringify(mascot),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
+}
+
 module.exports = {
   fetchMascots,
   addMascot,
+  toggleFavourites,
 };

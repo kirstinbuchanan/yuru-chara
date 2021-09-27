@@ -14,7 +14,7 @@ const mascotSchema = new mongoose.Schema({
     required: false,
   },
   prefecture: String,
-  City: String,
+  city: String,
   description: {
     type: String,
     required: false,
@@ -22,7 +22,10 @@ const mascotSchema = new mongoose.Schema({
   status: String,
   officalSite: String,
   picture: String,
-  favourite: Boolean,
+  favourite: {
+    type: Boolean,
+    defaultValue: false,
+  },
 });
 
 const Mascot = mongoose.model('mascots', mascotSchema);

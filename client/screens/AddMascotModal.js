@@ -21,26 +21,55 @@ const AddNewMascot = ({ getMascots, navigation }) => {
     city: '',
     prefecture: '',
     description: '',
+    picture: '',
   });
   const [image, setImage] = useState(null);
 
   const addNewMascot = async (event) => {
-    await addMascot(state);
-    getMascots();
-    navigation.navigate('Home');
+    if (state.name === '') {
+      alert(`Please submit a mascot`);
+    } else {
+      await addMascot(state);
+      getMascots();
+      navigation.navigate('Home');
+    }
   };
 
   const pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.All,
-      allowsEditing: true,
       quality: 1,
+      base64: true,
+      allowsEditing: true,
     });
 
-    console.log(result);
     if (!result.cancelled) {
       setImage(result.uri);
+    } else {
+      return;
     }
+
+    let base64Img = `data:image/jpg;base64,${result.base64}`;
+
+    let apiUrl = 'https://api.cloudinary.com/v1_1/dygjcgbh3/image/upload';
+    let data = {
+      file: base64Img,
+      upload_preset: 'mascots',
+    };
+
+    fetch(apiUrl, {
+      body: JSON.stringify(data),
+      headers: {
+        'content-type': 'application/json',
+      },
+      method: 'POST',
+    })
+      .then(async (r) => {
+        let data = await r.json();
+        setImage(data.url);
+        setState({ ...state, picture: data.url });
+      })
+      .catch((err) => console.log(err));
   };
 
   useEffect(() => {

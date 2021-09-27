@@ -11,17 +11,14 @@ async function getAll(req, res) {
   }
 }
 
-async function createTopic(req, res) {
+async function getMascot(req, res) {
   try {
-    const topic = await model.create({
-      title: req.body.title,
-      published_at: new Date(),
-      score: 0,
-    });
-    res.status(201);
-    res.send(topic);
+    const id = req.params.id;
+    const mascot = await Mascot.findById(id);
+    res.status(200);
+    res.send(mascot);
   } catch (error) {
-    console.log(error);
+    console('controller getOneMascot error', error);
     res.sendStatus(500);
   }
 }
@@ -38,4 +35,18 @@ async function addMascot(req, res) {
   }
 }
 
-module.exports = { getAll, addMascot };
+async function toggleFavourite(req, res) {
+  try {
+    const id = req.params.id;
+    const faveStatus = req.body.favourite;
+    console.log('faveStatus', faveStatus);
+    const fave = await Mascot.findByIdAndUpdate(id, { favourite: faveStatus }, { new: true });
+    res.status(200);
+    res.send(fave);
+  } catch (error) {
+    console.log(error);
+    res.sendStatus(500);
+  }
+}
+
+module.exports = { getAll, addMascot, toggleFavourite, getMascot };

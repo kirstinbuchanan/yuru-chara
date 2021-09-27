@@ -6,30 +6,31 @@ import {
   FlatList,
   TouchableOpacity,
 } from 'react-native';
+import MascotList from '../components/MascotList';
 
 const FavouriteList = ({ navigation, favourites }) => {
   return (
     <View style={styles.background}>
-      <Text>Favourites</Text>
+      <View style={styles.header}>
+        <Text style={styles.heading}>Favourites</Text>
+      </View>
       {favourites.length < 1 ? (
-        <Text>No Favourites... </Text>
+        <Text
+          style={{
+            backgroundColor: 'pink',
+            height: 580,
+            color: 'white',
+            textAlign: 'center',
+            fontSize: 20,
+            fontWeight: '500',
+            marginTop: 20,
+          }}
+        >
+          No Favourites...{' '}
+        </Text>
       ) : (
-        <View>
-          <FlatList
-            showsVerticalScrollIndicator={false}
-            showsHorizontalScrollIndicator={false}
-            data={favourites}
-            keyExtractor={(item) => item._id}
-            renderItem={({ item }) => (
-              <TouchableOpacity
-                onPress={() =>
-                  navigation.push('MascotDetails', { mascot: item })
-                }
-              >
-                <Text>{item.name}</Text>
-              </TouchableOpacity>
-            )}
-          />
+        <View style={styles.test}>
+          <MascotList filteredMascots={favourites} navigation={navigation} />
         </View>
       )}
     </View>
@@ -39,7 +40,16 @@ const FavouriteList = ({ navigation, favourites }) => {
 const styles = StyleSheet.create({
   background: {
     backgroundColor: 'pink',
-    marginTop: 30,
+  },
+  heading: {
+    color: 'white',
+    fontSize: 30,
+    marginLeft: 20,
+    fontWeight: 'bold',
+    paddingTop: 20,
+  },
+  test: {
+    height: 580,
   },
 });
 export default FavouriteList;
