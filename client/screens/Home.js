@@ -42,6 +42,12 @@ const Home = ({ navigation, mascots, favourites }) => {
         <Text style={styles.headingText}>Yuru Chara Search</Text>
         <TouchableOpacity
           style={styles.heart}
+          onPress={() => navigation.navigate('AddNewMascot')}
+        >
+          <Icon name="add" type="ionicons" color="red" />
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.heart}
           onPress={() => navigation.navigate('FavouriteList')}
         >
           <Icon name="heart" type="antdesign" color="red" />

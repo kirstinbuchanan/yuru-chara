@@ -11,4 +11,31 @@ async function getAll(req, res) {
   }
 }
 
-module.exports = { getAll };
+async function createTopic(req, res) {
+  try {
+    const topic = await model.create({
+      title: req.body.title,
+      published_at: new Date(),
+      score: 0,
+    });
+    res.status(201);
+    res.send(topic);
+  } catch (error) {
+    console.log(error);
+    res.sendStatus(500);
+  }
+}
+
+async function addMascot(req, res) {
+  try {
+    const mascot = req.body;
+    const add = await Mascot.create(mascot);
+    res.status(201);
+    res.send(add);
+  } catch (error) {
+    console.log('controller addMascot error', error);
+    res.sendStatus(500);
+  }
+}
+
+module.exports = { getAll, addMascot };

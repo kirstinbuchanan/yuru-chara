@@ -8,15 +8,19 @@ async function fetchMascots() {
     });
 }
 
-const toggleFavourite = async (id) => {
-  const res = await fetch(`${MASCOTS_URL}/${id}`, {
-    method: 'PUT',
+async function addMascot(mascot) {
+  return fetch(MASCOTS_URL, {
+    method: 'POST',
+    body: JSON.stringify(mascot),
     headers: {
-      'Content-type': 'application/json',
+      'Content-Type': 'application/json',
     },
-  });
-};
+  })
+    .then((response) => response.json())
+    .catch((err) => console.log(err));
+}
 
 module.exports = {
   fetchMascots,
+  addMascot,
 };

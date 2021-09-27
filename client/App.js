@@ -8,6 +8,7 @@ import { fetchMascots } from './ApiClientService';
 import FavouriteList from './screens/FavouriteList';
 import YuruChara from './splashscreens/YuruChara';
 import AddNewMascot from './screens/AddMascotModal';
+
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -30,22 +31,16 @@ export default function App() {
     setMascots(sorted);
   }
 
-  function getFavourites() {
-    return mascots.filter((mascot) => mascot.favourite === true);
-  }
-
-  const favourites = getFavourites();
-
   useEffect(() => {
     getMascots();
   }, []);
-
   return (
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
         }}
+        mode="modal"
       >
         <Stack.Screen
           name="YuruChara"
@@ -62,11 +57,14 @@ export default function App() {
         >
           {(props) => <Home mascots={mascots} {...props} />}
         </Stack.Screen>
+        <Stack.Screen name="AddNewMascot" options={{ headerShown: false }}>
+          {(props) => <AddNewMascot getMascots={getMascots} {...props} />}
+        </Stack.Screen>
         <Stack.Screen name="MascotDetails">
           {(props) => <MascotDetails {...props} />}
         </Stack.Screen>
         <Stack.Screen name="FavouriteList">
-          {(props) => <FavouriteList favourites={favourites} {...props} />}
+          {(props) => <FavouriteList {...props} />}
         </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
