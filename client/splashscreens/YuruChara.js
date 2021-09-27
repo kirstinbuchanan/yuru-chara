@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import AnimatedLottieView from 'lottie-react-native';
 const YuruChara = ({ navigation }) => {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} animationEnabled={false}>
       <View style={styles.circle}>
         <AnimatedLottieView
           style={styles.fuji}

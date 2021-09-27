@@ -18,18 +18,13 @@ const MascotDetails = ({ route }) => {
     WebBrowser.openBrowserAsync(mascot.officialSite);
   };
 
-  // const makeFavourite = (mascot) => {
-  //   const favouriteMascot = { ...mascot, favourite: true };
-  //   return favouriteMascot;
-  // };
-
   return (
     <View style={styles.background}>
       <Icon name="arrow-back-ios" type="materialicons" color="black" />
       <View style={styles.top}>
-        {/* <TouchableOpacity onPress={() => makeFavourite}>
-        {mascot.favourite ? <Text>Unlike</Text> : <Text>Like</Text>}
-      </TouchableOpacity> */}
+        <TouchableOpacity>
+          <Icon name="heart" type="antdesign" color="red" />
+        </TouchableOpacity>
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
       </View>

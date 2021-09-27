@@ -11,8 +11,6 @@ const Stack = createStackNavigator();
 
 export default function App() {
   const [mascots, setMascots] = useState([]);
-  const [favourites, setFavourites] = useState([]);
-  // const [isLiked, setIsLiked] = useState(false);
 
   async function getMascots() {
     const result = await fetchMascots();
@@ -42,8 +40,19 @@ export default function App() {
           headerShown: false,
         }}
       >
-        <Stack.Screen name="YuruChara" component={YuruChara} />
-        <Stack.Screen name="Home">
+        <Stack.Screen
+          name="YuruChara"
+          component={YuruChara}
+          options={{
+            animationEnabled: false,
+          }}
+        />
+        <Stack.Screen
+          name="Home"
+          options={{
+            animationEnabled: false,
+          }}
+        >
           {(props) => <Home mascots={mascots} {...props} />}
         </Stack.Screen>
         <Stack.Screen name="MascotDetails" component={MascotDetails} />

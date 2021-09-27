@@ -7,4 +7,5 @@ async function fetchMascots() {
       console.log(err);
     });
 }
+
 module.exports = { fetchMascots };
