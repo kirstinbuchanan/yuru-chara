@@ -22,13 +22,17 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     justifyContent: 'center',
-    backgroundColor: 'pink',
+    backgroundColor: '#e8b4b8',
   },
   circle: {
     backgroundColor: 'white',
     borderRadius: 200,
     height: 375,
     width: 375,
+  },
+  fuji: {
+    top: -8,
+    left: -5,
   },
 });
 export default YuruChara;

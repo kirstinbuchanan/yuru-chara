@@ -11,7 +11,7 @@ import DropDownPicker from 'react-native-dropdown-picker';
 import MascotList from '../components/MascotList';
 import { Icon } from 'react-native-elements';
 
-const Home = ({ navigation, mascots, favourites }) => {
+const Home = ({ navigation, mascots }) => {
   const [searchParam, setSearch] = useState('');
   const [filterParam, setFilter] = useState(null);
   const [filterItems, setFilterItems] = useState([
@@ -106,7 +106,7 @@ const Home = ({ navigation, mascots, favourites }) => {
 const styles = StyleSheet.create({
   list: {
     paddingTop: 30,
-    backgroundColor: '#ffe5d9',
+    backgroundColor: '#e8b4b8',
     paddingBottom: 200,
   },
   headerBar: {

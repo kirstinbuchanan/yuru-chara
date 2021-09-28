@@ -199,7 +199,7 @@ const AddNewMascot = ({ getMascots, navigation }) => {
 
 const styles = StyleSheet.create({
   list: {
-    backgroundColor: '#a68585',
+    backgroundColor: '#e8b4b8',
     flex: 1,
   },
   heading: {

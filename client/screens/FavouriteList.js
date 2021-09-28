@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  FlatList,
-  TouchableOpacity,
-} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import MascotList from '../components/MascotList';
 
 const FavouriteList = ({ navigation, favourites }) => {
@@ -39,7 +33,7 @@ const FavouriteList = ({ navigation, favourites }) => {
 
 const styles = StyleSheet.create({
   background: {
-    backgroundColor: 'pink',
+    backgroundColor: '#e8b4b8',
   },
   heading: {
     color: 'white',
