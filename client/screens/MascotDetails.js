@@ -12,8 +12,10 @@ import * as WebBrowser from 'expo-web-browser';
 import { Icon } from 'react-native-elements';
 import { toggleFavourites } from '../ApiClientService';
 
-const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
+const MascotDetails = ({ route, mascots, getMascots }) => {
   const { mascot } = route.params;
+
+  const [isLiked, setIsLiked] = useState(mascot.favourite);
 
   const handleOpenWithWebBrowser = () => {
     WebBrowser.openBrowserAsync(mascot.officialSite);
@@ -23,11 +25,11 @@ const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
     console.log('toggleHandle', mascot);
     if (!mascot.favourite) {
       setIsLiked(true);
-      await toggleFavourites(mascot);
+      await toggleFavourites(mascot._id, { favourite: true });
       getMascots();
     } else {
       setIsLiked(false);
-      await toggleFavourites(mascot);
+      await toggleFavourites(mascot._id, { favourite: false });
       getMascots();
     }
   };
@@ -41,13 +43,13 @@ const MascotDetails = ({ route, mascots, getMascots, setIsLiked, isLiked }) => {
         color="white"
       />
       <View style={styles.top}>
-        {/* <TouchableOpacity onPress={toggleHandle}>
+        <TouchableOpacity onPress={toggleHandle}>
           {isLiked ? (
             <Icon name="heart" type="antdesign" color="red" />
           ) : (
             <Icon name="hearto" type="antdesign" color="red" />
           )}
-        </TouchableOpacity> */}
+        </TouchableOpacity>
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
       </View>
@@ -110,7 +112,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     height: 250,
     width: 250,
-    resizeMode: 'contain',
+    resizeMode: 'cover',
     borderColor: 'grey',
     borderWidth: 1,
     borderRadius: 50,

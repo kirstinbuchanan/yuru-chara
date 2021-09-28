@@ -21,6 +21,12 @@ export default function App() {
   async function getMascots() {
     const result = await fetchMascots();
 
+    const faves = result.filter((mascot) => mascot.favourite);
+
+    setFavourites(faves);
+
+    console.log('faves', faves);
+
     const sorted = result.sort((a, b) => {
       var nameA = a.name.toUpperCase();
       var nameB = b.name.toUpperCase();
@@ -35,11 +41,8 @@ export default function App() {
     setMascots(sorted);
   }
 
-  const faves = mascots.filter((mascot) => mascot.favourite);
-
   useEffect(() => {
     getMascots();
-    setFavourites(faves);
   }, []);
 
   return (

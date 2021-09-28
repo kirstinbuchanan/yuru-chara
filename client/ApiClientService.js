@@ -20,11 +20,11 @@ async function addMascot(mascot) {
     .catch((err) => console.log(err));
 }
 
-async function toggleFavourites(mascot) {
-  const id = mascot._id;
+async function toggleFavourites(mascotId, favouriteStatus) {
+  const id = mascotId;
   return fetch(`${MASCOTS_URL}/${id}`, {
     method: 'PUT',
-    body: JSON.stringify(mascot),
+    body: JSON.stringify(favouriteStatus),
     headers: {
       'Content-Type': 'application/json',
     },
