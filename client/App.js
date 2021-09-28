@@ -25,8 +25,6 @@ export default function App() {
 
     setFavourites(faves);
 
-    console.log('faves', faves);
-
     const sorted = result.sort((a, b) => {
       var nameA = a.name.toUpperCase();
       var nameB = b.name.toUpperCase();

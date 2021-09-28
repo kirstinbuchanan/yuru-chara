@@ -39,11 +39,8 @@ async function toggleFavourite(req, res) {
   try {
     const id = req.params.id;
 
-    console.log('controller id', id);
     const faveStatus = req.body.favourite;
-    console.log('faveStatus', faveStatus);
     const fave = await Mascot.findByIdAndUpdate(id, { favourite: faveStatus }, { new: true });
-    console.log('fave server controller', fave);
     res.status(200);
     res.send(fave);
   } catch (error) {

@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   TextInput,
-  TouchableOpacity,
   Button,
   Image,
   Platform,
   ScrollView,
+  SafeAreaView,
+  TouchableOpacity,
+  KeyboardAvoidingView,
 } from 'react-native';
 import { addMascot } from '../ApiClientService';
 import * as ImagePicker from 'expo-image-picker';
@@ -84,81 +86,166 @@ const AddNewMascot = ({ getMascots, navigation }) => {
     })();
   }, []);
 
+  const japanInput = useRef();
+  const representInput = useRef();
+  const cityInput = useRef();
+  const prefectureInput = useRef();
+  const descriptionInput = useRef();
+
   return (
-    <ScrollView style={styles.container}>
-      <View style={styles.heading}>
-        <Text>Add a Mascot</Text>
-      </View>
-      <View style={styles.form}>
-        <Text>Name</Text>
-        <TextInput
-          value={state.name}
-          onChangeText={(text) => {
-            setState({ ...state, name: text });
-          }}
-          style={styles.input}
-        ></TextInput>
-        <Text>Japanese</Text>
-        <TextInput
-          value={state.japanese}
-          onChangeText={(text) => {
-            setState({ ...state, japanese: text });
-          }}
-          style={styles.input}
-        ></TextInput>
-        <Text>Mascot for:</Text>
-        <TextInput
-          value={state.mascot}
-          onChangeText={(text) => {
-            setState({ ...state, mascot: text });
-          }}
-          style={styles.input}
-        ></TextInput>
-        <Text>City</Text>
-        <TextInput
-          value={state.city}
-          onChangeText={(text) => {
-            setState({ ...state, city: text });
-          }}
-          style={styles.input}
-        ></TextInput>
-        <Text>Prefecture</Text>
-        <TextInput
-          value={state.prefecture}
-          onChangeText={(text) => {
-            setState({ ...state, prefecture: text });
-          }}
-          style={styles.input}
-        ></TextInput>
-        <Text>Description</Text>
-        <TextInput
-          value={state.description}
-          onChangeText={(text) => {
-            setState({ ...state, description: text });
-          }}
-          style={styles.input}
-        ></TextInput>
-        <Text>Picture</Text>
-        <Button title="Pick an image from camera roll" onPress={pickImage} />
-        {image && (
-          <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />
-        )}
-      </View>
-      <TouchableOpacity onPress={addNewMascot}>
-        <Text>Submit</Text>
-      </TouchableOpacity>
-    </ScrollView>
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : null}
+      style={{ flex: 1 }}
+    >
+      <ScrollView style={[styles.list]}>
+        <View>
+          <Text style={styles.heading}>Add a Mascot</Text>
+        </View>
+        <View style={[styles.form]}>
+          <Text style={styles.label}>Name</Text>
+          <TextInput
+            placeholder="Name (Required)"
+            value={state.name}
+            onChangeText={(text) => {
+              setState({ ...state, name: text });
+            }}
+            style={styles.input}
+            returnKeyType="next"
+            onSubmitEditing={() => japanInput.current.focus()}
+            blurOnSubmit={false}
+          ></TextInput>
+          <Text style={styles.label}>Japanese</Text>
+          <TextInput
+            placeholder="Japanese"
+            value={state.japanese}
+            onChangeText={(text) => {
+              setState({ ...state, japanese: text });
+            }}
+            style={styles.input}
+            ref={japanInput}
+            returnKeyType="next"
+            blurOnSubmit={false}
+            onSubmitEditing={() => representInput.current.focus()}
+          ></TextInput>
+          <Text style={styles.label}>Representing</Text>
+          <TextInput
+            placeholder="Representing"
+            blurOnSubmit={false}
+            value={state.mascot}
+            onChangeText={(text) => {
+              setState({ ...state, mascot: text });
+            }}
+            style={styles.input}
+            ref={representInput}
+            returnKeyType="next"
+            onSubmitEditing={() => cityInput.current.focus()}
+          ></TextInput>
+          <Text style={styles.label}>City</Text>
+          <TextInput
+            placeholder="City"
+            value={state.city}
+            blurOnSubmit={false}
+            onChangeText={(text) => {
+              setState({ ...state, city: text });
+            }}
+            style={styles.input}
+            ref={cityInput}
+            returnKeyType="next"
+            onSubmitEditing={() => prefectureInput.current.focus()}
+          ></TextInput>
+          <Text style={styles.label}>Prefecture</Text>
+          <TextInput
+            placeholder="Prefecture"
+            value={state.prefecture}
+            blurOnSubmit={false}
+            onChangeText={(text) => {
+              setState({ ...state, prefecture: text });
+            }}
+            style={styles.input}
+            returnKeyType="next"
+            onSubmitEditing={() => descriptionInput.current.focus()}
+            ref={prefectureInput}
+          ></TextInput>
+          <Text style={styles.label}>Description</Text>
+          <TextInput
+            placeholder="Description"
+            value={state.description}
+            onChangeText={(text) => {
+              setState({ ...state, description: text });
+            }}
+            style={styles.input}
+            ref={descriptionInput}
+          ></TextInput>
+
+          <Text style={styles.label}>Picture</Text>
+          <TouchableOpacity onPress={pickImage} style={styles.buttonWrapper}>
+            <View style={styles.button}>
+              <Text>Pick an image</Text>
+            </View>
+          </TouchableOpacity>
+
+          {image && (
+            <Image
+              source={{ uri: image }}
+              style={{ width: 200, height: 200 }}
+            />
+          )}
+          <Button title="Submit" style={styles.button} onPress={addNewMascot} />
+        </View>
+      </ScrollView>
+    </KeyboardAvoidingView>
   );
 };
 
 const styles = StyleSheet.create({
+  list: {
+    backgroundColor: '#a68585',
+    flex: 1,
+  },
+  heading: {
+    color: 'white',
+    fontSize: 30,
+    marginLeft: 20,
+    fontWeight: 'bold',
+    marginTop: 25,
+  },
+  form: {
+    borderRadius: 30,
+    margin: 20,
+    zIndex: 1,
+  },
+  label: {
+    color: 'white',
+    fontWeight: '600',
+    fontSize: 17,
+  },
   input: {
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: 'grey',
     padding: 10,
     marginVertical: 10,
-    borderRadius: 5,
-    fontSize: 18,
+    fontSize: 16,
+    height: 50,
+    backgroundColor: 'white',
+    borderRadius: 30,
+    marginTop: 10,
+    paddingLeft: 20,
+  },
+  button: {
+    height: 40,
+    width: '50%',
+    backgroundColor: 'white',
+    borderRadius: 20,
+    justifyContent: 'center',
+  },
+  buttonWrapper: {
+    height: 100,
+    alignItems: 'center',
+    marginHorizontal: 10,
+  },
+  buttonText: {
+    color: 'white',
+    fontWeight: 'bold',
   },
 });
 

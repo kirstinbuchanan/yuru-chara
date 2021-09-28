@@ -35,7 +35,7 @@ const MascotDetails = ({ route, mascots, getMascots }) => {
   };
 
   return (
-    <View style={styles.background}>
+    <View style={[styles.background]}>
       <Icon
         style={{ marginTop: 10 }}
         name="up"
