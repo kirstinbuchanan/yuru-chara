@@ -95,9 +95,14 @@ const AddNewMascot = ({ getMascots, navigation }) => {
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : null}
-      style={{ flex: 1 }}
+      style={{ flex: 1, backgroundColor: '#e8b4b8' }}
+      keyboardVerticalOffset={50}
     >
-      <ScrollView style={[styles.list]}>
+      <ScrollView
+        style={[styles.list]}
+        showsVerticalScrollIndicator={false}
+        showsHorizontalScrollIndicator={false}
+      >
         <View>
           <Text style={styles.heading}>Add a Mascot</Text>
         </View>
@@ -178,19 +183,34 @@ const AddNewMascot = ({ getMascots, navigation }) => {
           ></TextInput>
 
           <Text style={styles.label}>Picture</Text>
-          <TouchableOpacity onPress={pickImage} style={styles.buttonWrapper}>
+
+          <View>
+            {image ? (
+              <Image
+                source={{ uri: image }}
+                style={{
+                  width: 200,
+                  height: 200,
+                  alignSelf: 'center',
+                  borderRadius: 30,
+                }}
+              />
+            ) : (
+              <TouchableOpacity
+                onPress={pickImage}
+                style={styles.buttonWrapper}
+              >
+                <View style={styles.button}>
+                  <Text style={styles.buttonText}>Pick an image</Text>
+                </View>
+              </TouchableOpacity>
+            )}
+          </View>
+          <TouchableOpacity onPress={addNewMascot} style={styles.buttonWrapper}>
             <View style={styles.button}>
-              <Text>Pick an image</Text>
+              <Text style={styles.buttonText}>Submit</Text>
             </View>
           </TouchableOpacity>
-
-          {image && (
-            <Image
-              source={{ uri: image }}
-              style={{ width: 200, height: 200 }}
-            />
-          )}
-          <Button title="Submit" style={styles.button} onPress={addNewMascot} />
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
@@ -220,13 +240,11 @@ const styles = StyleSheet.create({
     fontSize: 17,
   },
   input: {
-    borderWidth: 0,
-    borderColor: 'grey',
     padding: 10,
     marginVertical: 10,
     fontSize: 16,
     height: 50,
-    backgroundColor: 'white',
+    backgroundColor: 'rgb(245,245,245)',
     borderRadius: 30,
     marginTop: 10,
     paddingLeft: 20,
@@ -234,18 +252,19 @@ const styles = StyleSheet.create({
   button: {
     height: 40,
     width: '50%',
-    backgroundColor: 'white',
+    backgroundColor: 'rgb(245,245,245)',
     borderRadius: 20,
     justifyContent: 'center',
   },
   buttonWrapper: {
-    height: 100,
+    height: 60,
+    marginVertical: 15,
     alignItems: 'center',
-    marginHorizontal: 10,
   },
   buttonText: {
-    color: 'white',
-    fontWeight: 'bold',
+    color: '#3d3d3d',
+    alignSelf: 'center',
+    fontSize: 16,
   },
 });
 

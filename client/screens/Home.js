@@ -44,21 +44,25 @@ const Home = ({ navigation, mascots }) => {
           style={styles.heart}
           onPress={() => navigation.navigate('AddNewMascot')}
         >
-          <Icon name="add" type="ionicons" color="red" />
+          <Icon name="add" type="ionicons" color="#900020" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.heart}
           onPress={() => navigation.navigate('FavouriteList')}
         >
-          <Icon name="heart" type="antdesign" color="red" />
+          <Icon name="heart" type="antdesign" color="#900020" />
         </TouchableOpacity>
       </View>
       <View style={styles.filter}>
         <DropDownPicker
           dropDownContainerStyle={{
-            borderColor: 'white',
+            backgroundColor: 'rgb(245,245,245)',
+            opacity: 0.9,
+            borderWidth: 0,
+            borderBottomLeftRadius: 30,
+            borderBottomEndRadius: 30,
           }}
-          style={styles.dropdown}
+          style={[styles.dropdown, { backgroundColor: 'rgb(245,245,245)' }]}
           open={open}
           value={filterParam}
           items={filterItems}
@@ -78,7 +82,7 @@ const Home = ({ navigation, mascots }) => {
       {filteredMascots.length < 1 ? (
         <Text
           style={{
-            backgroundColor: '#ffe5d9',
+            backgroundColor: '#e8b4b8',
             height: 490,
             color: 'white',
             textAlign: 'center',
@@ -125,7 +129,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: 'black',
-    fontSize: 16,
+    fontSize: 17,
   },
   filter: {
     borderRadius: 30,
@@ -134,7 +138,7 @@ const styles = StyleSheet.create({
   },
   textInput: {
     height: 50,
-    backgroundColor: 'white',
+    backgroundColor: 'rgb(245,245,245)',
     borderRadius: 30,
     marginTop: 10,
     paddingLeft: 20,

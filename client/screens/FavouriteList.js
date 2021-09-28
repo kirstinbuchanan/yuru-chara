@@ -34,6 +34,7 @@ const FavouriteList = ({ navigation, favourites }) => {
 const styles = StyleSheet.create({
   background: {
     backgroundColor: '#e8b4b8',
+    flex: 1,
   },
   heading: {
     color: 'white',
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
     paddingTop: 20,
   },
   test: {
-    height: 580,
+    height: 585,
   },
 });
 export default FavouriteList;

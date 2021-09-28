@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
   Text,
   View,
@@ -22,7 +22,6 @@ const MascotDetails = ({ route, mascots, getMascots }) => {
   };
 
   const toggleHandle = async () => {
-    console.log('toggleHandle', mascot);
     if (!mascot.favourite) {
       setIsLiked(true);
       await toggleFavourites(mascot._id, { favourite: true });
@@ -37,27 +36,36 @@ const MascotDetails = ({ route, mascots, getMascots }) => {
   return (
     <View style={[styles.background]}>
       <Icon
-        style={{ marginTop: 10 }}
-        name="up"
+        style={{ marginTop: 20 }}
+        name="down"
         type="antdesign"
         color="white"
       />
-      <View style={styles.top}>
-        <TouchableOpacity onPress={toggleHandle}>
-          {isLiked ? (
-            <Icon name="heart" type="antdesign" color="red" />
-          ) : (
-            <Icon name="hearto" type="antdesign" color="red" />
-          )}
-        </TouchableOpacity>
+      <View style={{ justifyContent: 'space-between' }}>
         <Text style={[styles.heading, styles.name]}>{mascot.name}</Text>
         <Text style={[styles.japanese, styles.heading]}>{mascot.japanese}</Text>
+        <TouchableOpacity
+          style={{ alignSelf: 'flex-end', marginRight: 30, marginTop: -30 }}
+          onPress={toggleHandle}
+        >
+          {isLiked ? (
+            <Icon name="heart" type="antdesign" color="#900020" />
+          ) : (
+            <Icon name="hearto" type="antdesign" color="#900020" />
+          )}
+        </TouchableOpacity>
       </View>
+
       <View
         style={{
           justifyContent: 'center',
           alignItems: 'center',
           zIndex: 10,
+
+          shadowColor: '#171717',
+          shadowOffset: { width: -3, height: 4 },
+          shadowOpacity: 0.2,
+          shadowRadius: 5,
         }}
       >
         <Image
@@ -69,19 +77,31 @@ const MascotDetails = ({ route, mascots, getMascots }) => {
       </View>
       <ScrollView style={styles.mascotAbout}>
         <View style={styles.mascotText}>
-          <Text style={{ lineHeight: 25, fontSize: 18 }}>
-            {'\n'} Representing: {mascot.mascot}
-            {'\n'} City: {mascot.city}
-            {'\n'} Prefecture: {mascot.prefecture}
-            {'\n'} Description: {mascot.description}{' '}
+          <Text style={{ fontSize: 17, marginBottom: 5 }}>
+            <Text style={styles.span}>Representing: </Text>
+            {mascot.mascot}
+          </Text>
+          <Text style={{ fontSize: 17, marginBottom: 5 }}>
+            <Text style={styles.span}>City:</Text> {mascot.city}
+          </Text>
+          <Text style={{ fontSize: 17, marginBottom: 5 }}>
+            <Text style={styles.span}>Prefecture: </Text>
+            {mascot.prefecture}
+          </Text>
+          <Text style={{ fontSize: 17, marginBottom: 5 }}>
+            <Text style={styles.span}>Description:</Text> {mascot.description}
           </Text>
           {!mascot.officialSite ? (
             <Text style={{ textAlign: 'center' }}>🌸</Text>
           ) : (
-            <Button
-              title="Go to Offical Site"
+            <TouchableOpacity
               onPress={() => handleOpenWithWebBrowser()}
-            />
+              style={styles.buttonWrapper}
+            >
+              <View style={styles.button}>
+                <Text style={styles.buttonText}>Go to Official Site</Text>
+              </View>
+            </TouchableOpacity>
           )}
         </View>
       </ScrollView>
@@ -96,15 +116,15 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   name: {
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: 'bold',
   },
   japanese: {
-    fontSize: 16,
-    fontWeight: '300',
+    fontSize: 20,
+    fontWeight: '400',
   },
   background: {
-    backgroundColor: 'pink',
+    backgroundColor: '#e8b4b8',
     zIndex: 0,
     height: '100%',
   },
@@ -113,19 +133,47 @@ const styles = StyleSheet.create({
     height: 250,
     width: 250,
     resizeMode: 'cover',
-    borderColor: 'grey',
+    borderColor: 'transparent',
     borderWidth: 1,
     borderRadius: 50,
     backgroundColor: 'white',
   },
-  mascotText: { margin: 30, marginTop: 40 },
+  mascotText: {
+    margin: 30,
+    marginTop: 80,
+  },
   mascotAbout: {
-    backgroundColor: 'white',
+    backgroundColor: 'rgb(245,245,245)',
     zIndex: 5,
     flex: 2,
     marginTop: -50,
     borderTopStartRadius: 30,
     borderTopEndRadius: 30,
+  },
+  top: {
+    zIndex: 10,
+    alignSelf: 'flex-end',
+    marginRight: 20,
+  },
+  span: {
+    fontWeight: 'bold',
+  },
+  button: {
+    height: 40,
+    width: '50%',
+    backgroundColor: '#e8b4b8',
+    borderRadius: 20,
+    justifyContent: 'center',
+  },
+  buttonWrapper: {
+    height: 60,
+    marginVertical: 15,
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#3d3d3d',
+    alignSelf: 'center',
+    fontSize: 17,
   },
 });
 
