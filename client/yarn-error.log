@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lisie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add –dev jest jest-expo jest-fetch-mock @testing-library/react-native react-test-renderer
+
+PATH: 
+  C:\Users\lisie\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lisie\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Notepad++;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Ruby27-x64\bin;C:\Users\lisie\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\lisie\AppData\Local\Programs\Python\Python38-32;C:\Users\lisie\AppData\Local\Microsoft\WindowsApps;C:\Users\lisie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lisie\AppData\Local\atom\bin;C:\Users\lisie\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\lisie\AppData\Local\GitHubDesktop\bin;C:\Users\lisie\AppData\Roaming\npm;C:\Exercism;C:\Users\lisie\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:151:13)
+      at Object.request (https.js:313:10)
+      at Request.module.exports.Request.start (C:\Users\lisie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141224:32)
+      at Request.module.exports.Request.end (C:\Users\lisie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141983:10)
+      at end (C:\Users\lisie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141037:14)
+      at Immediate._onImmediate (C:\Users\lisie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141051:7)
+      at processImmediate (internal/timers.js:461:21)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "lint": "eslint .",
+      "test": "jest"
+    },
+  
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/native": "^6.0.2",
+      "@react-navigation/stack": "^6.0.7",
+      "expo": "~42.0.1",
+      "expo-image-picker": "~10.2.2",
+      "expo-status-bar": "~1.0.4",
+      "expo-web-browser": "~9.2.0",
+      "jest-expo": "~41.0.0",
+      "lottie-ios": "^3.2.3",
+      "lottie-react-native": "^4.1.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+      "react-native-dropdown-picker": "^5.1.27",
+      "react-native-elements": "^3.4.2",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-reanimated": "~2.2.0",
+      "react-native-safe-area-context": "3.2.0",
+      "react-native-screens": "~3.4.0",
+      "react-native-vector-icons": "^8.1.0",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@react-native-community/eslint-config": "^3.0.1",
+      "@testing-library/jest-native": "^4.0.2",
+      "@testing-library/react-native": "~7.2.0",
+      "eslint": "^7.32.0",
+      "jest": "~26.6.3",
+      "jest-fetch-mock": "~3.0.3"
+    },
+    "private": true,
+    "jest": {
+      "preset": "jest-expo",
+      "transformIgnorePatterns": [
+        "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
+      ]
+    }
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
