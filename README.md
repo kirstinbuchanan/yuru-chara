@@ -13,13 +13,12 @@ _An encyclopaedia for Japanese mascots_
 ## Introduction
 
 <div>
-<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908160/IMG_2588_tutvmt.png" width="230px"/>
-<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908161/IMG_2589_yh241d.png" width="230px"/>
-<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908160/IMG_2590_xu5ghh.png" width="230px"/>
-<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908161/IMG_2591_bhqtjz.png" width="230px"/>
+<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908160/IMG_2588_tutvmt.png" width="200px"/>
+<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908161/IMG_2589_yh241d.png" width="200px"/>
+<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908160/IMG_2590_xu5ghh.png" width="200px"/>
+<Img src="https://res.cloudinary.com/dygjcgbh3/image/upload/v1634908161/IMG_2591_bhqtjz.png" width="200px"/>
 </div>
 
-<br/>
 yuru-chara (**ゆるキャラ**): a Japanese term for mascot characters; created to promote a place or region, event, organisation or business.
 
 
