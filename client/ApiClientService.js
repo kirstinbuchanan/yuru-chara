@@ -1,4 +1,4 @@
-const MASCOTS_URL = 'http://10.10.22.236:4000/mascots';
+const MASCOTS_URL = 'http://10.10.22.135:4000/mascots';
 
 async function fetchMascots() {
   return fetch(MASCOTS_URL)
