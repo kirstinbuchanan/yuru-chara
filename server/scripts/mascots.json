@@ -1,0 +1,2390 @@
+[
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e03"
+    },
+    "name": "Marimokkori",
+    "japanese": "まりもっこり",
+    "mascot": "Hokkaido Prefecture",
+    "prefecture": "Hokkaido",
+    "description": "The name 'Marimokkori' is a portmanteau: marimo is the word for the green algae clusters that grow in some of Hokkaidō's lakes, while mokkori, literally 'bulge', is a Japanese slang term for an erection.",
+    "officialSite": "https://ameblo.jp/marimokkori2005/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395128/images/marimokkori/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e04"
+    },
+    "name": "Melon-kuma",
+    "japanese": "メロン熊",
+    "mascot": "Yubari-cho",
+    "prefecture": "Hokkaido",
+    "city": "Yubari",
+    "description": "A bear with a yubari melon on its head.",
+    "status": "Unofficial",
+    "officialSite": "https://ameblo.jp/melon-kuma/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394985/images/melon-kuma/1_mfxh54.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e05"
+    },
+    "name": "Kyun-chan",
+    "japanese": "キュンちゃん",
+    "mascot": "Hokkaido Tourism",
+    "prefecture": "Hokkaido",
+    "description": "Kyun-chan is a northern pika, a small furry rabbit-like animal (ezo naki usagi) found only in Hokkaido. He's really shy and that's why wears a Hokkaido deer hat (ezo shika) to hide his shyness.",
+    "officialSite": "http://kyuns-room.visit-hokkaido2.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394962/images/kyun-chan/1_hi3po9.jpg",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e06"
+    },
+    "name": "IburiOne Jr. ",
+    "japanese": "いぶりONE-Jr.",
+    "mascot": "Iburishichou City",
+    "prefecture": "Hokkaido",
+    "city": "Iburishichou",
+    "description": "A pink dog",
+    "officialSite": "https://www.facebook.com/iburione.jr/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394976/images/iburi-one-jr/2_dbae5n.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e07"
+    },
+    "name": "Kiko",
+    "japanese": "キーコ",
+    "mascot": "Kikonai City",
+    "prefecture": "Hokkaido",
+    "city": "Kikonai",
+    "description": "A red bull",
+    "officialSite": "http://www.uu-hokkaido.jp/corporate/tourism/kikonai/kikonai.shtml",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394960/images/kiko-chan/1_pqd6i9.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e08"
+    },
+    "name": "Kazumo-chan",
+    "japanese": "kazumoちゃん",
+    "mascot": "Rumoi City",
+    "prefecture": "Hokkaido",
+    "city": "Rumoi",
+    "description": "A piece of herring roe",
+    "officialSite": "http://rumoi-rasisa.jp/rumoide/rumoimeguri/kazumo%E3%81%A1%E3%82%83%E3%82%93/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395084/images/kazumo-chan/1_unb8qm.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e09"
+    },
+    "name": "Ikaaru Seijin",
+    "japanese": "イカール星人",
+    "mascot": "Hakodate City",
+    "prefecture": "Hokkaido",
+    "city": "Hakodate",
+    "description": "The Man from Planet Ikaaru, an alien squid",
+    "officialSite": "http://ika-r.shop-pro.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394970/images/ikaaru-seijin/1_ai8a7l.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e0a"
+    },
+    "name": "Jingis Khan No Jin-Kun",
+    "japanese": "ジンギスカンのジンくん",
+    "mascot": "Local delicacy Jingis Khan",
+    "prefecture": "Hokkaido",
+    "description": "Jingis Khan represents a local delicacy by the same name, which is a cook-it-yourself dish including mutton",
+    "officialSite": "http://jingisukan-jin.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395130/images/jingis-khan-no-jin-kun/1_zwiuxq.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e0b"
+    },
+    "name": "Nipo-kun",
+    "mascot": "Abashiri Prison",
+    "prefecture": "Hokkaido",
+    "city": "Abashiri",
+    "description": "A mascot modeled on a traditional toy made by the local Ainu tribes.",
+    "officialSite": "https://www.kangoku.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395133/images/nipo-kun/1_wxpou5.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e0c"
+    },
+    "name": "Sarupu",
+    "japanese": "さるっぷ",
+    "mascot": "Sarufutsu Village",
+    "prefecture": "Hokkaido",
+    "city": "Sarufutsu",
+    "description": "A monkey with a scallop crown and a cow-print onesie. He weighs the same as 90 scallops.",
+    "officialSite": "http://sarufutsu.jp/character.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394969/images/sarupu/1_yzgztu.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e0d"
+    },
+    "name": "Laveton",
+    "japanese": "らべとん",
+    "mascot": "Kamifurano City",
+    "prefecture": "Hokkaido",
+    "city": "Kamifurano",
+    "description": "A pig dressed in lavendar.  Kamifurano is famous for both lavendar and pork.",
+    "officialSite": "http://www.kamifurano.jp/yuruchara",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395127/images/laveton/2_amqghc.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e0e"
+    },
+    "name": "Soraisu",
+    "mascot": "Tokaichi Festival",
+    "prefecture": "Hokkaido",
+    "description": "A sky blue squirrel with cloud hair.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395118/images/soraisu/1_ef1kvc.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e0f"
+    },
+    "name": "Milkuman",
+    "prefecture": "Hokkaido",
+    "description": "A bear with an ice cream cone on his head.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395066/images/milkuman/1_hxzr6a.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e10"
+    },
+    "name": "Frep the Fox",
+    "japanese": "フレップ・ザ・フォックス",
+    "mascot": "The Hokkaido Nippon-Ham Fighters Baseball Team",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "An Ezo red fox, who debuted in March 2016. He is gray with red markings, and he is considered an 'apprentice.'",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394976/images/frep-the-fox/1_ffmuch.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e11"
+    },
+    "name": "Polly Polaris",
+    "japanese": "ポリーポラリス",
+    "mascot": "The Hokkaido Nippon-Ham Fighters Baseball Team",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "A brown squirrel who appeared late 2012, at the same time when the Fighters announced their 10th season. She's the first female mascot that was introduced to the team.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394955/images/polly-polaris/1_wkhspx.gif"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e12"
+    },
+    "name": "Cubby the Bear",
+    "mascot": "The Hokkaido Nippon-Ham Fighters Baseball Team",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "a brown bear and younger brother of B·B. He appeared in 2006 as the mascot of the Fighters' minor league team, based in Kamagaya, Chiba. Cubby and B·B performed for each team, but also sometimes perform together when the Fighters' professional team plays in Tokyo.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394964/images/cubby-the-bear/1_ezauuu.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e13"
+    },
+    "name": "B.B. (Brisky the Bear)",
+    "mascot": "The Hokkaido Nippon-Ham Fighters Baseball Team",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "A black bear with a ruffle of black or orange hair on his head. He first appeared in 2004, as the successor to Fighty. When B·B was first introduced, his appearance was criticized by some of the Fighters' supporters for being too Americanized. On the Fighters official website, B·B has his own picture gallery and column.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394975/images/brisky-the-bear/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e14"
+    },
+    "name": "Fighty",
+    "mascot": "The Hokkaido Nippon-Ham Fighters Baseball Team",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "A bright pink pterodactyl whose head resembled a giant leg of ham and who sometimes rode a bicycle around the field. Fighty was retired, despite the (unsuccessful) 'Save Fighty' campaign, when the Fighters moved to Hokkaido.",
+    "status": "Retired",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394961/images/fighty/2_v3tiix.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e15"
+    },
+    "name": "TV Tosan",
+    "japanese": "レビ父さん",
+    "mascot": "Sapporo TV Tower",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "The Sapporo TV Tower, with a mustache",
+    "officialSite": "https://www.tv-tower.co.jp/en/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395019/images/tv-tosan/1_zvvr8y.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e16"
+    },
+    "name": "Moko",
+    "mascot": "The Japanese Self Defense Force - Hokkaido",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "A sheep with a cute camouflage bowtie.",
+    "officialSite": "https://www.mod.go.jp/gsdf/nae/index.html",
+    "picture": "/moko"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e17"
+    },
+    "name": "Kibicchi",
+    "japanese": "きびっち",
+    "mascot": "Odori Park",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "A walking ear of corn that represents Odori Park, a park full of carts of fresh corn",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394971/images/kibicchi/1_yujyhv.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e18"
+    },
+    "name": "Kiyotchi",
+    "mascot": "Kiyota Ward",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "His abstract art hat is the local logo, a K for Kiyota.",
+    "officialSite": "http://www.city.sapporo.jp.e.ain.hp.transer.com/kiyota/chiiki-shinko/kiyotchi/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395128/images/kiyotchi/1_daetvp.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e19"
+    },
+    "name": "Kappon",
+    "japanese": "かっぽん",
+    "mascot": "Jozankei Onsen",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "His full name is “Jozankei Kappa Kokichibei”. One day, he was playing with his friends on the banks of the Toyohira River with a bucket that had floated downstream, and shouting out “kappon!” he squeezed himself into the bucket and couldn’t get back out. From that day, everyone called him ‘Kappon’! Kappon loves hot springs and always brings his own towel and bucket with him, because he thinks it’s convenient to bring them to the hot springs himself.",
+    "officialSite": "https://jozankei.jp/en/kappon",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394963/images/kappon/1_s9e3ev.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e1a"
+    },
+    "name": "Ezomon",
+    "mascot": "2017 Sapporo Asian Winter Games",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "A Hokkaido flying squirrel",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394956/images/ezomon/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e1b"
+    },
+    "name": "Dole-kun",
+    "mascot": "Hokkaido Consodole Football Club",
+    "prefecture": "Hokkaido",
+    "city": "Sapporo",
+    "description": "Modeled on the Blakiston's Fish Owl -- the largest owl in Japan and a very well-known denizen of Hokkaido.",
+    "officialSite": "https://international.consadole-sapporo.jp/teams/detail/665.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395142/images/dole-kun/1.gif"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e1c"
+    },
+    "name": "Matagi no Momiji-chan",
+    "japanese": "またぎのもみじちゃん",
+    "prefecture": "Hokkaido",
+    "description": "A gun toting pink yezo sika deer, often seen with Jingis Khan No Jin-Kun",
+    "officialSite": "http://jingisukan-jin.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395132/images/matagi-no-momiji-chan/2_utjgkp.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e1d"
+    },
+    "name": "Ikube",
+    "japanese": "いくべぇは",
+    "mascot": "Aomori Prefecture",
+    "prefecture": "Aomori",
+    "description": "He is a blue traveling fairy who fell in love with Aomori prefecture after wandering around Japan. Because of this love, he decided to live in Aomori (which means 'blue forest')",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395031/images/ikube/1_kzwtwc.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e1e"
+    },
+    "name": "Wanko",
+    "japanese": "",
+    "mascot": "Iwate Prefecture",
+    "prefecture": "Iwate",
+    "description": "Inspired by a 'wanko soba' noodle, a famous local food in Iwate prefecture. Wanko consists of 5 brothers, each of them has a different motif and character.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395137/images/wanko/2_ots0l6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e1f"
+    },
+    "name": "Musubimaru",
+    "japanese": "むすび丸",
+    "mascot": "Miyagi Prefecture",
+    "prefecture": "Miyagi",
+    "city": "",
+    "description": "A rice ball samurai. Rice is famous produce in Miyagi and its armor design comes after the local hero'Masamune Date'",
+    "officialSite": "http://www.sendaimiyagidc.jp/musubimaru/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394958/images/musubimaru/1_e1e4sk.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e20"
+    },
+    "name": "Sugitchi",
+    "mascot": "Sugitchi",
+    "prefecture": "Akita",
+    "status": "Retired",
+    "description": "An Akita cedar tree, retired in 2017 after 10 years of service",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395132/images/sugitchi/1_b655ar.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e21"
+    },
+    "name": "Kizakura Sui",
+    "japanese": "黄桜すいプロジェクト",
+    "mascot": "Akita Prefecture",
+    "prefecture": "Akita",
+    "description": "A 16-year-old water goddess that is 158 centimeters tall and likes the Akita Komachi variety of rice, soft serve ice cream, and cats",
+    "officialSite": "https://kizakurasui.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395134/images/kizakura-sui/1_mlyy97.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e22"
+    },
+    "name": "Kitekeru-kun",
+    "mascot": "Yamagata Prefecture",
+    "prefecture": "Yamagata",
+    "description": "This mascot is overshadowed by Kumamons popularity.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394972/images/kitekeru-kun/1_jjo9eh.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e23"
+    },
+    "name": "Kibitan",
+    "japanese": "キビタン",
+    "mascot": "Fukushima Prefecture",
+    "prefecture": "Fukushima",
+    "description": "Based on the local 'Kibitaki' bird (the narcissus flycatcher). He was originally created for a nineties athletics event and now represents hopeful renewal for Fukushima.",
+    "officialSite": "https://www.pref.fukushima.lg.jp/site/movie-now-english/ch-e-ch-kibitan-yurukyara.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395129/images/kibitan/3_bqqwqu.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e24"
+    },
+    "name": "Hustle Komon",
+    "mascot": "Ibaraki Prefecture",
+    "prefecture": "Ibaraki",
+    "description": "A character inspired by the long-running TV period drama, Mito Komon.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395126/images/hustle-komon/1_u3ijj2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e25"
+    },
+    "name": "Tochimarukun",
+    "japanese": "とちまるくん",
+    "mascot": "Tochigi Prefecture",
+    "prefecture": "Tochigi",
+    "description": "A little hard worker",
+    "officialSite": "http://tochimarukun.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395024/images/tochimarukun/1_pk1sk3.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e26"
+    },
+    "name": "Gunma-chan",
+    "japanese": "ぐんまちゃんの",
+    "mascot": "Gunma Prefecture",
+    "prefecture": "Gunma",
+    "description": "A cute pony from Gunma prefecture",
+    "officialSite": "http://www.gunmachan-navi.pref.gunma.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395120/images/gunma-chan/2_tyrx4j.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e27"
+    },
+    "name": "Kobaton",
+    "japanese": "コバトン",
+    "mascot": "Saitama Prefecture",
+    "prefecture": "Saitama",
+    "description": "The mascot of Saitama prefecture, Kobaton is a Eurasian collared dove, which is also the prefectural bird. Kobaton was made originally as the mascot of the fifty-ninth annual national athletic meeting held in the prefecture in 2004, and was inaugurated as mascot of the prefecture in 2005 with an inauguration ceremony and a letter of appointment from the governor. A wheelchair-using version of Kobaton also exists.",
+    "officialSite": "http://www.kobatonya.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394983/images/kobaton/1_tus3d0.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e28"
+    },
+    "name": "Saimachi",
+    "japanese": "さいたまっち",
+    "mascot": "Saitama Prefecture",
+    "prefecture": "Saitama",
+    "city": "Saitama",
+    "description": "Works as a mascot for Saitama Prefecture along with Kobaton.  Some consider Saimachi to be Kobatons rival.",
+    "officialSite": "https://www.pref.saitama.lg.jp/a0301/kobaton/saitamatch-b.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394954/images/saimachi/1_rpzaup.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e29"
+    },
+    "name": "Chiba-kun",
+    "japanese": "チーバくん",
+    "mascot": "Chiba Prefecture",
+    "description": "A mysterious red animal from Chiba Prefecture whose shape comes from the geography of the prefecture",
+    "officialSite": "https://www.pref.chiba.lg.jp/kokusai/english/information/residents/ambassadors.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395121/images/chiba-kun/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e2a"
+    },
+    "name": "Reruhi-San",
+    "japanese": "レルヒさん",
+    "mascot": "Niigata Prefecture",
+    "prefecture": "Niigata",
+    "description": "TThe 270cm-tall skiing mascot based on Theodor Von-Lerch, an Austro-Hungarian major who brought the skiing to Japan",
+    "officialSite": "https://www.niigata-snow.jp/lerch/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395058/images/reruhi-san/2_zub4jx.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e2b"
+    },
+    "name": "Kitokito-kun",
+    "mascot": "Toyama Prefecture",
+    "prefecture": "Toyama",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394968/images/kitokito-kun/1_cihkpw.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e2c"
+    },
+    "name": "Hyakumansan",
+    "japanese": "百万さん",
+    "mascot": "Ishikawa Prefecture",
+    "prefecture": "Ishikawa",
+    "description": "'Mr. One Million', generally unpopular because he is considered to be ugly",
+    "officialSite": "http://hyakumansan.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395027/images/hyakumansan/1_gkcjvv.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e2d"
+    },
+    "name": "Sautan",
+    "japanese": "サウタン",
+    "mascot": "Fukui Prefecture",
+    "prefecture": "Fukui",
+    "description": "A dinosaur, meant to represent the many dinosaur fossils found in Fukui.  Part of the Juratic mascot group.",
+    "officialSite": "https://www.pref.fukui.lg.jp/doc/brandeigyou/brand/juratic.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394971/images/sautan/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e2e"
+    },
+    "name": "Hishimaru Takeda",
+    "japanese": "菱丸",
+    "mascot": "Yamanashi Prefecture",
+    "prefecture": "Yamanashi",
+    "description": "A member of the Takeda clan",
+    "officialSite": "https://www.facebook.com/takeda.hishimaru/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395128/images/hishimaru-takeda/2_mzmdq7.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e2f"
+    },
+    "name": "Arukuma",
+    "japanese": "アルクマ",
+    "mascot": "Nagano Prefecture",
+    "prefecture": "Nagano",
+    "city": "",
+    "description": "A walking bear with an Nagano apple hat.  Arukuma won first place in the 2019 Yuru Chara Grand Prix.",
+    "officialSite": "http://arukuma.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394968/images/arukuma/1.gif",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e30"
+    },
+    "name": "Minamo",
+    "japanese": "ミナモ",
+    "mascot": "Gifu Prefecture",
+    "prefecture": "Gifu",
+    "description": "A smiling sprite",
+    "officialSite": "https://minamo-official.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395141/images/minamo/1_lxuuda.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e31"
+    },
+    "name": "Fujippi",
+    "japanese": "ふじっぴー",
+    "mascot": "Shizuoka Prefecture",
+    "prefecture": "Shizuoka",
+    "description": "If Mt Fuji was a person",
+    "officialSite": "http://www.pref.shizuoka.jp/kikaku/ki-110/fujippi/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394964/images/fujippi/3.jpg",
+    "favourite": true
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e32"
+    },
+    "name": "Kappasalamander",
+    "prefecture": "Osaka",
+    "city": "Tondabayashi",
+    "description": "A hybrid of a kappa and an axolotl.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394972/images/kappasalamander/1_bfcsbv.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e33"
+    },
+    "name": "Mametan",
+    "mascot": "Agriculture Mascot for Gifu",
+    "prefecture": "Gifu",
+    "description": "A walking bean pod",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394959/images/mametan/2_b7lzqb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e34"
+    },
+    "name": "Haropon",
+    "japanese": "ハロぽん",
+    "mascot": "Niitsu Halloween Festival in Niigata",
+    "prefecture": "Niigata",
+    "city": "Niitsu",
+    "description": "A racoon dog witch",
+    "officialSite": "https://www.niitsu-halloween.com/hallopon",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395076/images/haropon/1_rshihd.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e35"
+    },
+    "name": "Omozo",
+    "japanese": "おもぞう",
+    "mascot": "JRT, Shikoku Broadcasting",
+    "prefecture": "Shikoku",
+    "description": "A square elephant",
+    "officialSite": "http://www.jrt.co.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395006/images/omozo/1_hnykfy.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e36"
+    },
+    "name": "Ringori-kun",
+    "mascot": "Apple Moving Company",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A mix of a baby gorilla and an apple",
+    "officialSite": "https://www.apple-hikkoshi.co.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395012/images/ringori-kun/1_b2yr3v.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e37"
+    },
+    "name": "Bun-chan",
+    "mascot": "Hokkaido Shimbun Newspaper",
+    "prefecture": "Sapporo",
+    "city": "Sapporo",
+    "description": "A monkey with a newspaper hat",
+    "officialSite": "https://www.hokkaido-np.co.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394962/images/bun-chan/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e38"
+    },
+    "name": "Bun-chan",
+    "japanese": "ぶん",
+    "mascot": "Bunkaru, a PR website run by Japan's Agency for Cultural Affairs",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A rosy cheeked mascot",
+    "officialSite": "http://www.bunka.go.jp/prmagazine/english/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632420060/images/bun-chan-2/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e39"
+    },
+    "name": "Haniwa Kacho / Haniwa Bucho",
+    "mascot": "Sakai City",
+    "prefecture": "Osaka",
+    "city": "Sakai",
+    "description": "An office manager with the head of an ancient clay figure",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395032/images/haniwa-kacho/1_v7zemx.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e3a"
+    },
+    "name": "Swatch",
+    "mascot": "Suwayama Park Zoo",
+    "prefecture": "Hyogo",
+    "city": "Kobe",
+    "description": "A patchwork elephant that is a reincarnation of Suwako, an elephant that once lived in the zoo",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394960/images/swatch/1_v213it.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e3b"
+    },
+    "name": "Kuroneko Shironeko",
+    "mascot": "Yamato Transport Company",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A black cat and white cat serve as mascots for Yamato Transport Company.  These cats are represented in various illustrations including the famous Kuroneko logo of a mom cat carrying a baby cat.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395045/images/kuroneko/1_bmrw6p.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e3c"
+    },
+    "name": "Paiko-chan",
+    "mascot": "Oppai Ramen Snack Bar",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A terrifyingly sexual pink bird",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394961/images/paiko-chan/1_qyda1w.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e3d"
+    },
+    "name": "Pay-kun",
+    "mascot": "Payment Navi",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A credit card weilding squirrel, he serves as the mascot for Payment Navi, a Japanese credit card information site",
+    "officialSite": "https://paymentnavi.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394956/images/pay-kun/1_dfinio.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e3e"
+    },
+    "name": "Hanako",
+    "mascot": "Hazuko Medical Corporation",
+    "prefecture": "Osaka",
+    "city": "Osaka",
+    "description": "A white elephant nurse",
+    "officialSite": "http://www.hakuzo.co.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394954/images/hanako/1_ufdiyb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e3f"
+    },
+    "name": "Zombear",
+    "prefecture": "Hokkaido",
+    "city": "Otaru",
+    "description": "He’s a big stuffed teddy bear who has been wandering the streets of Hokkaido for 70 years looking for the boy that owns him. He’s got a very bad sense of direction, but is lucky nonetheless.",
+    "officialSite": "http://zombear.net/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395116/images/zombear/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e40"
+    },
+    "name": "Ponta",
+    "mascot": "Ponta Points rewards program",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A racoon dog, the official mascot for the Ponta Points program through Lawson",
+    "officialSite": "https://point.recruit.co.jp/point/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395131/images/ponta/3.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e41"
+    },
+    "name": "Nanaco",
+    "mascot": "Nanaco rewards program",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A giraffe, the official mascot for the Nanaco rewards program and payment service through 7-Eleven",
+    "officialSite": "https://www.nanaco-net.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395118/images/nanaco/2_qhkn0s.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e42"
+    },
+    "name": "Asaga-Ossan",
+    "mascot": "The Hakusan City Business District",
+    "prefecture": "Ishikawa",
+    "city": "Hakusan",
+    "description": "An old man who loves booze and has a morning glory flower for a head.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395008/images/asaga-ossan/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e43"
+    },
+    "name": "Dennyas",
+    "japanese": "デニャーズが",
+    "mascot": "Dennys Restaurant",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "Three cats that represent Dennys",
+    "officialSite": "https://www.dennys.jp/entertainment/dennyas/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394966/images/dennyas/4_ldhvtj.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e44"
+    },
+    "name": "Shugar",
+    "japanese": "シュガ～",
+    "mascot": "Shuf-Chef Website",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A cross between a polar bear and a sugar cube.",
+    "officialSite": "https://shuf-chef.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394996/images/shugar/1_cjas6v.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e45"
+    },
+    "name": "Rippy",
+    "mascot": "Kawagoe City",
+    "prefecture": "Saitama",
+    "city": "Kawagoe",
+    "description": "A rabbit often mistaken for a hamster",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394971/images/rippy/1_xjhkar.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e46"
+    },
+    "name": "Psychedelhi-san",
+    "mascot": "Kouenji District in Tokyo",
+    "prefecture": "Tokyo",
+    "city": "Kouenji, Tokyo",
+    "description": "A mildly racist Indian psychidelic mushroom.  Chosen in a contest that included over 890 designs, it is truly unknown to us why this one was picked.",
+    "officialSite": "https://koenjieco.com/en/2018/08/27/psyche_delhi-san/",
+    "picture": "/psychedelhi-san"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e47"
+    },
+    "name": "Tomato Ninjen",
+    "mascot": "Kouenji District in Tokyo",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A weird tomato, also the mascot of Kouenji.  Usually appears with Psychedelhi-san",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395099/images/tomato-ningen/1_oc0zeb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e48"
+    },
+    "name": "Kawacchi",
+    "japanese": "かわっち",
+    "mascot": "Kawaguchi City",
+    "prefecture": "Saitama",
+    "city": "Kawaguchi City",
+    "status": "Unofficial",
+    "description": "A philosophical kappa",
+    "officialSite": "http://kawacchi-novel.blog.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394973/images/kawacchi/1_dbmspp.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e49"
+    },
+    "name": "Sunna-chan",
+    "mascot": "Onna Village",
+    "prefecture": "Okinawa",
+    "city": "Onna",
+    "description": "A smiling coral fairy",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395131/images/sunna-chan/1_pj14uy.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e4a"
+    },
+    "name": "Takausagi",
+    "mascot": "Takasaki City",
+    "prefecture": "Gunma",
+    "city": "Takasaki",
+    "description": "A grumpy hybrid of a rabbit and a falcon",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394968/images/takausagi/1_oiyrrl.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e4b"
+    },
+    "name": "Coppel-kun",
+    "mascot": "Yokohama City’s Isezakicho Shopping District",
+    "prefecture": "Kanagawa",
+    "city": "Yokohama",
+    "description": "A flamboyant Danish seagull",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395133/images/coppel-kun/1_xyqacl.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e4c"
+    },
+    "name": "Hummer-kun",
+    "status": "ハマー君",
+    "mascot": "Yokohama Port Festival",
+    "prefecture": "Kanagawa",
+    "city": "Yokohama",
+    "description": "A seagull with shades",
+    "officialSite": "http://www.kaikosai.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394976/images/hummer-kun/1_c0bmwq.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e4d"
+    },
+    "name": "Inunakin",
+    "japanese": "イヌナキン",
+    "mascot": "Izumisano City",
+    "prefecture": "Osaka",
+    "city": "Izumisano",
+    "description": "A hero dog.  He won 2nd place in the 2019 Yuru-Chara Grand Prix.",
+    "officialSite": "https://inunakinn.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395117/images/inuakin/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e4e"
+    },
+    "name": "Manmoshi",
+    "japanese": "マンモシ博士",
+    "mascot": "East Nippon Expressway Safe Driving in the Snow",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A wooly mammoth who teaches the people of Japan how to safely drive in snow.",
+    "officialSite": "https://www.driveplaza.com/special/manmoshi/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395121/images/manmoshi/1_b0jbje.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e4f"
+    },
+    "name": "Manbe-kun",
+    "japanese": "まんべくん",
+    "mascot": "Oshamanbe, Hokkaido",
+    "prefecture": "Hokkaido",
+    "city": "Oshamanbe",
+    "description": "A boy with crab claws, scallop ears, and an iris for hair.",
+    "officialSite": "https://manbe.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395039/images/manbe-kun/2_ggqugs.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e50"
+    },
+    "name": "Ono-kun",
+    "japanese": "おのくん",
+    "mascot": "Higashimatsushima City",
+    "prefecture": "Miyagi",
+    "city": "Higashimatsushima",
+    "description": "A sockey monkey mascot modeled after the event when citizens sewed toys out of socks to help raise funds to rebuild the city after an earthquake.",
+    "officialSite": "https://socialimagine.wixsite.com/onokun",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395129/images/ono-kun/1_djhrog.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e51"
+    },
+    "name": "Komoshika",
+    "japanese": "こもしか",
+    "mascot": "Komono Town",
+    "prefecture": "Mie",
+    "city": "Komono",
+    "description": "A wide-eyed Japanese serow with wild rice stems for horns and naruto fish cakes for cheeks.  He is said to inhabit Mt. Gozaisho.",
+    "officialSite": "http://www.kanko-komono.com/komoshika/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394955/images/komoshika/1_f10kqt.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e52"
+    },
+    "name": "Gosshi",
+    "mascot": "Goryokaku Park",
+    "prefecture": "Hokkaido",
+    "city": "Hakodate",
+    "description": "A carp possessed by the soul of a dead soldier (who happens to wear stockings and high heels).  The stars on its head represent the star shape of Goryokaku Park.",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394958/images/gosshi/1_d4kgl6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e53"
+    },
+    "name": "Super Hakuto-kun",
+    "japanese": "スーパーはくとくん",
+    "mascot": "Super Hakuto Express Train",
+    "prefecture": "Kyoto",
+    "city": "Kyoto",
+    "description": "A boxing bunny mixed with a train car.",
+    "officialSite": "http://www.chizukyu.co.jp/chizukyu/special/character/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395134/images/super-hakuto-kun/1_n0qjdq.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e54"
+    },
+    "name": "Jacu-jii",
+    "japanese": "じゃぐ爺",
+    "mascot": "Osaka Municipal Waterworks Bureau ",
+    "prefecture": "Osaka",
+    "city": "Osaka",
+    "description": "Hybrid of an old man and the faucet of a jacuzzi.",
+    "officialSite": "https://www.city.osaka.lg.jp/contents/wdu030/oishii/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394982/images/jacu-jii/2_k0oqnv.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e55"
+    },
+    "name": "Purea",
+    "japanese": "ぴゅあら",
+    "mascot": "Osaka Municipal Waterworks Bureau",
+    "prefecture": "Osaka",
+    "city": "Osaka",
+    "description": "A raindrop who fell from the sky and ended up at the water treatment facility.",
+    "officialSite": "https://www.city.osaka.lg.jp/contents/wdu030/oishii/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394956/images/purea/3_womxot.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e56"
+    },
+    "name": "Anameshiusu & Tororinu",
+    "japanese": "とろりーぬ＆アナメシウス",
+    "mascot": "Tamano Ontama Meshi, a meal consisting of eel, rice, and a poached egg.",
+    "prefecture": "Okayama",
+    "city": "Tamano",
+    "description": "Created to represent Tamano Ontama Meshi all around the country, Anameshiusu is an eel fairy that wears the bird mascot Tororinu on its head.",
+    "officialSite": "https://www.donbla.co.jp/tamano/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394981/images/anameshiusu/2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e57"
+    },
+    "name": "Baron Ciste",
+    "japanese": "シスト男爵",
+    "mascot": "Mukawa Town (Unofficial)",
+    "prefecture": "Hokkaido",
+    "city": "Mukawa",
+    "description": "An ammonite-headed gentleman trickster who likes chess, riddles, opera, and fine wines.",
+    "officialSite": "http://ciste.web.fc2.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394982/images/baron-ciste/1.jpg",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e58"
+    },
+    "name": "Mukaron",
+    "japanese": "むかろん",
+    "mascot": "Mukawa Town",
+    "prefecture": "Hokkaido",
+    "city": "Mukawa",
+    "description": "Mukaron has a melon head being bit by a dinosaur, a dried smelt in his hand, and a lettuce bag.",
+    "officialSite": "http://www.town.mukawa.lg.jp/item/5644.htm#itemid5644",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395138/images/mukaron/5_v1yznh.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e59"
+    },
+    "name": "Tsubaki Yamae Kurihira",
+    "japanese": "やまえ くり平”が",
+    "mascot": "Yamae Village",
+    "prefecture": "Kumamoto",
+    "city": "Yamae",
+    "description": "A chesnut mixed with a bear.",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394964/images/kurihira/1_egmn4p.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e5a"
+    },
+    "name": "Nebatchi",
+    "japanese": "ねばっち",
+    "mascot": "Towada City",
+    "prefecture": "Aomori",
+    "city": "Towada",
+    "description": "A sentient potato. Nebatchi loves taking naps and sumo wrestling.",
+    "officialSite": "http://www.pj-towada.jp/html/nebatchi.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395142/images/nebatchi/1_mm7t2e.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e5b"
+    },
+    "name": "Momomtan",
+    "japanese": "",
+    "mascot": "Momodani Shopping Street",
+    "prefecture": "Osaka",
+    "city": "Osaka",
+    "description": "",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395036/images/momotan/2_qap09v.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e5c"
+    },
+    "name": "Chico-chan",
+    "japanese": " チコちゃん",
+    "mascot": "'Dont Sleep Through Life' quiz show and as an ambassador for women's participation in sports",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "A 5-year-old girl who scolds adults for not knowing the answers to simple but perplexing questions about life.",
+    "officialSite": "https://www4.nhk.or.jp/chikochan/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395119/images/chico-chan/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e5d"
+    },
+    "name": "Komapon",
+    "japanese": "こまポン",
+    "mascot": "Komatsushima",
+    "prefecture": "Tokushima",
+    "city": "Komatsushima",
+    "description": "A cross between a tanuki and a samurai named Yoshinobu Minamoto.",
+    "officialSite": "https://www.city.komatsushima.lg.jp/komatsushima-navi/access/19446.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395062/images/komapon/3_qlc3am.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e5e"
+    },
+    "name": "Sudachi-kun",
+    "japanese": "すだちくん",
+    "mascot": "Tokushima Prefecture",
+    "prefecture": "Tokushima",
+    "city": "",
+    "description": "One of Japans oldest mascots, he is a sentient sudachi citrus fruit.",
+    "officialSite": "https://sudachikun.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395121/images/sudachi-kun/1_qrz4cb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e5f"
+    },
+    "name": "Makibe",
+    "japanese": "まきべ",
+    "mascot": "Isumi Lifestyle Lab",
+    "prefecture": "Chiba",
+    "city": "Isumi",
+    "description": "An angry hedge",
+    "officialSite": "https://ameblo.jp/makibeee/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395053/images/makibe/1_o3sj2g.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e60"
+    },
+    "name": "Hinumaru-kun",
+    "japanese": "ひぬ丸くん",
+    "mascot": "Ibaraki Town's Agriculture",
+    "prefecture": "Ibaraki",
+    "city": "Ibaraki",
+    "description": "A green fairy who loves nature.",
+    "officialSite": "https://www.zck.or.jp/site/local-mascot/13734.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394999/images/hinomaru-kun/1_d0xoso.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e61"
+    },
+    "name": "Midorin",
+    "japanese": "ミドリン",
+    "mascot": "Yokohamas Midori Ward",
+    "prefecture": "Kanagawa",
+    "city": "Yokohama",
+    "description": "A forest sprite whose special skill is photosynthesis. The cheeks are designed with purple petals of “Silane”, a Midori-ku flower.",
+    "officialSite": "https://www.city.yokohama.lg.jp/midori/shokai/mascot/midorin.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394984/images/midorin/1_bvy8ss.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e62"
+    },
+    "name": "Uzutama-kun",
+    "japanese": "うずたまくん",
+    "mascot": "Dazai Junior High School",
+    "prefecture": "Kyoto",
+    "city": "Kyoto",
+    "description": "A fairy that lives at Dazai Junior High School in Kyoto.  Uzutama-kun came dead last in the 2019 Yuru Chara Grand Prix.",
+    "officialSite": "http://cms.edu.city.kyoto.jp/weblog/index.php?id=204408",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395028/images/uzutama-kun/1_bujczp.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e63"
+    },
+    "name": "Korou-kun",
+    "japanese": "ころう君",
+    "mascot": "Kikuchi City",
+    "prefecture": "Kumamoto",
+    "city": "Kikuchi",
+    "description": "Korou-kun has Kikuchi Castle on his head.  Korou-kun also won 3rd place in the 2019 Yuru-Chara Grand Prix.",
+    "officialSite": "http://cyber.pref.kumamoto.jp/korou-tai/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394977/images/korou-kun/1_vj953w.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e64"
+    },
+    "name": "Takinomichi Yuzuru",
+    "japanese": "滝ノ道ゆずる",
+    "mascot": "Minoh City",
+    "prefecture": "Osaka",
+    "city": "Minoh",
+    "description": "A yuzu that promotes Minoh Citys natural sights.",
+    "officialSite": "http://www.yuzuyuzu.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394975/images/takinomichi-yuzuru/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e65"
+    },
+    "name": "Antarou",
+    "japanese": "安田朗",
+    "mascot": "Yasuda Town",
+    "prefecture": "Kochi",
+    "city": "Yasuda",
+    "description": "Antarou was born and raised in the Yasuda River.  He wears a kite on his back and a local costume.",
+    "officialSite": "https://www.town.yasuda.kochi.jp/index.php",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394958/images/antarou/1.jpg",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e66"
+    },
+    "name": "Tosakenpi",
+    "japanese": "とさけんぴ",
+    "mascot": "Kochi City",
+    "prefecture": "Kochi",
+    "city": "Kochi",
+    "description": "A dog with the local Harimaya-bashi bridge on his head.  He loves sumo.",
+    "officialSite": "http://tosakenpi.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395122/images/tosakenpi/1_tdevvc.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e67"
+    },
+    "name": "Chachamaru",
+    "japanese": "ちゃちゃまる",
+    "mascot": "Ikeda Town",
+    "prefecture": "Gifu",
+    "city": "Ikeda",
+    "description": "A bunny with mino ichiba leaves for ears and cherry blossom decorations.",
+    "officialSite": "https://www.town.gifu-ikeda.lg.jp/0000001061.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395067/images/chachamaru/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e68"
+    },
+    "name": "Echigon",
+    "japanese": "えちゴン",
+    "mascot": "Amagasaki City",
+    "prefecture": "Niigata",
+    "city": "Amagasaki",
+    "description": "A yellow demon who represents Amagaski City.",
+    "officialSite": "https://kashiwazaki-jc.or.jp/echigon/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394962/images/echigon/1_xhsyym.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e69"
+    },
+    "name": "Kurupa",
+    "japanese": "くるっぱ",
+    "mascot": "Kurume City",
+    "prefecture": "Fukuoka",
+    "city": "Kurume",
+    "description": "A kappa born in the Chikugo River, he is the advertising manager for Kurume City",
+    "officialSite": "https://www.kurumepr.com/main/11.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394984/images/kurupa/2_djukh2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e6a"
+    },
+    "name": "Okazaemon",
+    "japanese": "オカザえもん",
+    "mascot": "Okazaki City (Unofficial)",
+    "prefecture": "Aichi",
+    "city": "Okazaki",
+    "description": "Okazaemon originally appeared in the Okazaki Art & Jazz Festival in 2012 but became popular. Okazaemon was declared the Minister of Public Affairs for Okazaki Art in 2013.",
+    "officialSite": "http://okazaemon.co/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395117/images/okazaemon/1_rk3mcy.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e6b"
+    },
+    "name": "Omapyon",
+    "japanese": "おおまぴょん",
+    "mascot": "Omachi City",
+    "prefecture": "Nagano",
+    "city": "Omachi",
+    "description": "An antelope featuring the northern Alps on its head.",
+    "officialSite": "http://www.city.omachi.nagano.jp/00013000/00013300/00013328/00035724.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394986/images/omapyon/1_rdynxt.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e6c"
+    },
+    "name": "Victoire Cheval Blanc Murao III",
+    "japanese": "ヴィクトワール・シュヴァルブラン・村男Ⅲ世",
+    "mascot": "Hakuba Village",
+    "prefecture": "Nagano",
+    "city": "Hakuba",
+    "description": "Born from the Pegasus Meteor Shower, he commemorates the 100th anniverary of skiing in Hakuba.  It's wings are handmaid, and therefor cannot fly.",
+    "officialSite": "http://www.hakuba-murao3.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395134/images/victoire-cheval-blanc-murao-iii/1_uc9ezi.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e6d"
+    },
+    "name": "Toyonon",
+    "japanese": "とよのん",
+    "mascot": "Toyonomachi",
+    "prefecture": "Osaka",
+    "city": "Toyonomachi",
+    "description": "A dandelion that blooms in the Toyonomachi countryside.",
+    "officialSite": "http://www.town.toyono.osaka.jp/sp/page/page000228.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394972/images/toyonon/1_cdb3gs.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e6e"
+    },
+    "name": "Midomosu",
+    "japanese": "みどモス",
+    "mascot": "Midos City",
+    "prefecture": "Gunma",
+    "city": "Midos",
+    "description": "A 35,000 year old mammoth.  He was found in the Iwajuku ruins.",
+    "officialSite": "https://www.city.midori.gunma.jp/midomosu.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395070/images/midomosu/1_qzjvwa.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e6f"
+    },
+    "name": "Saigo Tsun",
+    "japanese": "西郷つん",
+    "mascot": "Satsumasendai Tourism",
+    "prefecture": "Kagoshima",
+    "city": "Satsumasendai",
+    "description": "Saigo Takomori's dog Tsun.  He was an influential samurai from Satsumasendai.",
+    "officialSite": "https://satsumasendai.gr.jp/for-business/tsun/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395126/images/saigo-tsun/1_fibjwl.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e70"
+    },
+    "name": "Ragamaru",
+    "japanese": "ラガマルくん",
+    "mascot": "Unofficial Rugby Mascot",
+    "prefecture": "Tokyo",
+    "city": "Tokyo",
+    "description": "An alien who resembles a dog, made to promote rugby in Japan.",
+    "officialSite": "https://rmk.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394983/images/ragamaru/1_xmrcp7.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e71"
+    },
+    "name": "Zaosama",
+    "japanese": "ざおうさま",
+    "mascot": "Zao Town",
+    "prefecture": "Miyagi",
+    "city": "Zao",
+    "description": "Born and lives in Zao Forest. He is shy and lives alone as the King.",
+    "officialSite": "http://www.town.zao.miyagi.jp/kankou/zaosama/zaosama.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394973/images/zaosama/1_uqrnhz.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e72"
+    },
+    "name": "Yokojiro",
+    "japanese": "よコジロー",
+    "mascot": "Ochi Town",
+    "prefecture": "Kochi",
+    "city": "Ochi",
+    "description": "A japanese white eye bird with a cedar tree on his chest.  His hat is shaped like a local mountain.  The flower he holds in his beak is a gift for his wife.",
+    "officialSite": "http://www.town.ochi.kochi.jp/yokojiro/prof.htm",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395129/images/yokojiro/1_d25gui.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e73"
+    },
+    "name": "Keyaki",
+    "japanese": "ケヤッキー",
+    "mascot": "Miyagi Prefecture",
+    "prefecture": "Miyagi",
+    "city": "",
+    "description": "Originally introduced in 2001 for the Come on Miyagi campaign, Keyaki is designed as a keaki tree which Miyagi prefecture is known for.  He had quietly retired but has gained enough popularity that he ranked in the top 20 for the 2019 Yuru-Chara Grand Prix.",
+    "officialSite": "https://oimyg.jimdo.com/info/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395119/images/keyaki/1_pwispf.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e74"
+    },
+    "name": "Unagiimo no Unamo",
+    "japanese": "うなぎいもの「うなも",
+    "mascot": "Hamamatsu",
+    "prefecture": "Shizuoka",
+    "city": "Hamamatsu",
+    "description": "A mysterious creature harvested after cultivating sweet potatoes using eel.  The head is a sweet potato, the body an eel, and the mustache a plain boring mustache.",
+    "officialSite": "https://unagiimo.com/unamo/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395131/images/unagiimo-no-unamo/1_sj2jdl.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e75"
+    },
+    "name": "Fluffy Tamako",
+    "japanese": "ふっくらたまこ",
+    "mascot": "Tako City",
+    "prefecture": "Chiba",
+    "city": "Tako",
+    "description": "A rice fairy loved by everyone. She also wears a hydrangea on her head.",
+    "officialSite": "https://www.town.tako.chiba.jp/docs/2018012900353/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394958/images/fluffy-tamako/1_tfjxe3.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e76"
+    },
+    "name": "Kuroshiokun",
+    "japanese": "くろしおくん",
+    "mascot": "Kochi Prefecture",
+    "prefecture": "Kochi",
+    "city": "",
+    "description": "A north-flowing Pacific Ocean current that touches Kochi Prefecture.",
+    "officialSite": "https://www.pref.kochi.lg.jp/kuroshiokun/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395140/images/kuroshiokun/2_qceapa.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e77"
+    },
+    "name": "Mei-Hime",
+    "japanese": "めい姫",
+    "mascot": "Miewa City",
+    "prefecture": "Mie",
+    "city": "Meiwa",
+    "description": "An eternal princess who is good at dancing.  Thought to have an affiliation with the Shinto god Ameratsu.",
+    "officialSite": "https://www.town.meiwa.mie.jp/main/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394964/images/mie-hime/1_nqiwqe.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e78"
+    },
+    "name": "Misabo",
+    "japanese": "みさ坊",
+    "mascot": "Misato Town",
+    "prefecture": "Shimane",
+    "city": "Misato",
+    "description": "A two month old wild boar child.  His hat is shaked like Enokawa and he has a badge in the shape of Nobiki Bridge.",
+    "officialSite": "http://gov.town.shimane-misato.lg.jp/soshiki/61/1418",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394973/images/misabo/1_pjlqqw.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e79"
+    },
+    "name": "Kyabettsusan",
+    "japanese": "キャベッツさん",
+    "mascot": "Supporter of Moms in Nishitokyo City",
+    "prefecture": "Tokyo",
+    "city": "Nishitokyo, Tokyo",
+    "description": "A hybrid of a cat and a cabbage.  She is known for singing and generally exists to make child-rearing more fun.",
+    "officialSite": "https://kyabettsusan.nishitokyo.city/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395005/images/kyabettsusan/1_pqmv6l.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e7a"
+    },
+    "name": "Ukipii",
+    "japanese": "うきぴー",
+    "mascot": "Ukiha City",
+    "prefecture": "Fukuoka",
+    "city": "Ukiha",
+    "description": "A sentient persimmon.",
+    "officialSite": "http://www.city.ukiha.fukuoka.jp/life/pub/Detail.aspx?c_id=44&id=203&pg=1&type=list",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394967/images/ukipii/1_xgnguo.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e7b"
+    },
+    "name": "Ainosuke",
+    "japanese": "あいのすけ",
+    "mascot": "Aizumi Town",
+    "prefecture": "Tokushima",
+    "city": "Aizumi",
+    "description": "A kind hearted indigo merchant.",
+    "officialSite": "https://www.town.aizumi.lg.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394957/images/ainosuke/1.jpg",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e7c"
+    },
+    "name": "Mamekichi",
+    "japanese": "まめ吉",
+    "mascot": "Okazaki City Health and Food Education",
+    "prefecture": "Aichi",
+    "city": "Okazaki",
+    "description": "A naughty legume who works to promote health in Okazaki City.",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394955/images/mamekichi/1_bls2if.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e7d"
+    },
+    "name": "Kakitan",
+    "japanese": "かきたん",
+    "mascot": "The Kikita Kawakami Agricultural Cooperative",
+    "prefecture": "Wakayama",
+    "city": "Hashimoto",
+    "description": "A persimmon bear that works as a PR representative for the Kikita Kawakami Arigricultural Cooperative in Wakayama prefecture.",
+    "officialSite": "http://www.ja-kihokukawakami.or.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395079/images/kakitan/1_u5a9xk.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e7e"
+    },
+    "name": "Utou",
+    "japanese": "うとう",
+    "mascot": "Ryo Ono Junior High School",
+    "prefecture": "Nagano",
+    "city": "Shiojiri",
+    "description": "Based on the folk tale 'Zenichi Tosu'.  He is an odu bird with three children. ",
+    "officialSite": "https://ryouonogakuen.wixsite.com/ryouono",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394963/images/utou/1_ji4xzb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e7f"
+    },
+    "name": "Director Matsushige",
+    "japanese": "松茂係長",
+    "mascot": "Matsushige Town",
+    "prefecture": "Tokushima",
+    "city": "Matsushige",
+    "description": "A rabbit from the moon who became a prisoner while obeserving Earth from the Moon.  He wears a sweet potato colored suit with a chesnut tree bag and a crysanthemum pinned to his jacket.",
+    "officialSite": "https://www.town.matsushige.tokushima.jp/docs/2017081500013/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395091/images/director-matsushige/1_luhg0r.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e80"
+    },
+    "name": "Ozumin",
+    "japanese": "おづみん",
+    "mascot": "Izumiotsu City",
+    "prefecture": "Osaka",
+    "city": "Izumiotsu",
+    "description": "A sheep whose job it is to promote Izumiostu, the best blanket town in Japan.",
+    "officialSite": "http://www.city.izumiotsu.lg.jp/topics/1338947765679.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394957/images/ozumin/1_n2h1tg.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e81"
+    },
+    "name": "Okechan",
+    "japanese": "オケちゃん",
+    "mascot": "Okegawa City",
+    "prefecture": "Saitama",
+    "city": "Yodogawa",
+    "description": "A safflower in a kimono.",
+    "officialSite": "http://www.okekan.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395022/images/okechan/1_kybem6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e82"
+    },
+    "name": "Ukedon",
+    "japanese": "うけどん",
+    "mascot": "Namie Town",
+    "prefecture": "Fukushima",
+    "city": "Namie",
+    "description": "A rice fairy bown in Namie Town, who lives in a bowl of salmon and fish cakes.",
+    "officialSite": "https://ukedon.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395064/images/ukedon/1_oa2fey.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e83"
+    },
+    "name": "Saburo Asahina",
+    "japanese": "アサヒナサブロー",
+    "mascot": "Yamato City",
+    "prefecture": "Miyagi",
+    "city": "Yamato",
+    "description": "Based on a warrior from the 13th century by the same name.",
+    "officialSite": "https://www.town.taiwa.miyagi.jp/site/kanko/1284.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394977/images/saburo-asahina/1_z25poo.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e84"
+    },
+    "name": "Matsuhime Mappy",
+    "japanese": "松姫マッピー",
+    "mascot": "Hachioji City",
+    "prefecture": "Tokyo",
+    "city": "Hachioji",
+    "description": "A fairy who loves Matsuda-sama, who was integral to the textile industry in Hachioji.",
+    "officialSite": "http://matsuhime-mappy.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395142/images/matsuhime-mappy/1_ck1b0v.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e85"
+    },
+    "name": "Awajin",
+    "japanese": "あわ神",
+    "mascot": "Awaji City",
+    "prefecture": "Hyogo",
+    "city": "Awaji",
+    "description": "A god from Awaji city with the Akashi Kaikyo Bridge on his head.",
+    "officialSite": "https://www.city.awaji.lg.jp/soshiki/kankou/2011040009.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395133/images/awajin/1.jpg",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e86"
+    },
+    "name": "Sacchan",
+    "japanese": "サシバのサッちゃん",
+    "mascot": "Ichikai Town",
+    "prefecture": "Tochigi",
+    "city": "Ichikai",
+    "description": "A hawk with two children Icchan and Kaichan.  She raises her children in the rich nature of Ichikai.",
+    "officialSite": "http://www.pref.tochigi.lg.jp/a03/town/shinkou/shinkou/tochichara/sacchan.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394983/images/sacchan/1_wifh3f.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e87"
+    },
+    "name": "Kakitsubatan",
+    "japanese": "かきつばたん",
+    "mascot": "Kariya City Special Support School",
+    "prefecture": "Aichi",
+    "city": "Kariya",
+    "description": "A fairy of the kakitsuba flower.  She was born in the Kariya City Special Support School.",
+    "officialSite": "http://www.city.kariya.aichi.jp/school/tokushi/h_kakitsubatannikki_01.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394970/images/kakitsubatan/1_uo8dln.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e88"
+    },
+    "name": "Nashita",
+    "japanese": "",
+    "mascot": "",
+    "prefecture": "Tottori",
+    "city": "",
+    "description": "A shiitake mushroom with pears for ears",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395100/images/nashita/1_jbt9kw.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e89"
+    },
+    "name": "Bikki-kun",
+    "japanese": "",
+    "mascot": "",
+    "prefecture": "Tokyo",
+    "city": "Kyodo, Tokyo",
+    "description": "A penguin who is learning to swim.",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394994/images/bikki-kun/1_wqs8jk.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e8a"
+    },
+    "name": "Butsubutsu-kun",
+    "japanese": "",
+    "mascot": "Kujuku Islands Tourism",
+    "prefecture": "Nagasaki",
+    "city": "",
+    "description": "Two rocky islands with sandstone faces.  Retired due to concerns about offending those with skin problems.",
+    "officialSite": "",
+    "status": "Retired",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395133/images/butsubutsu-kun/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e8b"
+    },
+    "name": "Kumamushi-kun and Kumanyanko-chan",
+    "japanese": "",
+    "mascot": "Saitama Sewer System",
+    "prefecture": "Saitama",
+    "city": "Saitama",
+    "description": "Kumamushi-kun is a tardigrade and Kumanyanko-chan is a cross between a cat and a tardigrade.",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394956/images/kumamushi-kun/2_vwd0xi.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e8c"
+    },
+    "name": "Kotochan",
+    "japanese": "",
+    "mascot": "Kotoden-Kotohira Train Line",
+    "prefecture": "Kagawa",
+    "city": "Kotohira",
+    "description": "A dolphin often mistaken for a penguin.  He is the stationmaster for Kotoden-Kotohira station.  He is sometimes seen riding the Kotoden-Kotohira train line with his family.",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394987/images/kotochan/1_efs06r.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e8d"
+    },
+    "name": "Inzai-kun",
+    "japanese": "いんザイ君",
+    "mascot": "Inzai City",
+    "prefecture": "Chiba",
+    "city": "Inzai",
+    "description": "A drowsy pink rhino.",
+    "officialSite": "http://www.city.inzai.lg.jp/category/8-0-0-0-0.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394976/images/inzai-kun/1_ioqw45.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e8e"
+    },
+    "name": "Namisuke and Nammy",
+    "japanese": "なみすけ・ナミー",
+    "mascot": "Suginami City",
+    "prefecture": "Tokyo",
+    "city": "Suginami, Tokyo",
+    "description": "Namisuke is a puppy sized dinosaur-like fairy with a forest on its back. Nammy is Namisuke's sister and also has a flower on her head.",
+    "officialSite": "https://www.city.suginami.tokyo.jp/suginamishoukai/shirumanabu/namisuke/1005179.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395117/images/namisuke/3_m82ozb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e8f"
+    },
+    "name": "Hamurin",
+    "japanese": "はむりん",
+    "mascot": "Hamura City",
+    "prefecture": "Tokyo",
+    "city": "Hamura",
+    "description": "Hamurin loves the beauty of Hamura City.  Its head consists of a water drop decorated with a cherry blossom and a body representing the zelkova at Hamura Bridge.  His name badge is held in place by a tulip.",
+    "officialSite": "http://www.city.hamura.tokyo.jp/category/12-0-0-0-0.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395052/images/hamurin/1_hgmybb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e90"
+    },
+    "name": "Gurandy",
+    "japanese": "ぐらんでぃ",
+    "mascot": "Shikaoi City (Unapproved/Unofficial)",
+    "prefecture": "Hokkaido",
+    "city": "Shikaoi",
+    "description": "An eternal three year old deer from Shikaoi.",
+    "officialSite": "https://twitter.com/gurandy19980321",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395094/images/gurandy/1_ctfdle.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e91"
+    },
+    "name": "Rini-kun & Rinimane",
+    "japanese": "リニー君＆りにまね",
+    "mascot": "Nara City Linear New Station Fan Club",
+    "prefecture": "Nara",
+    "city": "Nara",
+    "description": "Rini-kun is the new Chuo Shinkanesen and Rinimane is its sika deer sidekick from Nara City.  They both wish for a Chuo Shinkansen station in Nara.",
+    "officialSite": "http://www.city.nara.lg.jp/www/contents/1432530713456/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395130/images/rini-kun/1_ghanif.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e92"
+    },
+    "name": "Chutora",
+    "japanese": "ちゅとら",
+    "mascot": "Chubu University",
+    "prefecture": "Aichi",
+    "city": "Kasugai",
+    "description": "The tiger is the zodiac of President Kohei Miura (founder) and best represents the character of the University that has been developing at a remarkable pace.  Chutora loves peaches.",
+    "officialSite": "https://www3.chubu.ac.jp/chutora/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395121/images/chutora/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e93"
+    },
+    "name": "Radish Grandpa",
+    "japanese": "ダイコン爺さん",
+    "mascot": "Hakone Gora Tourism",
+    "prefecture": "Kanagawa",
+    "city": "Hakone Gora",
+    "description": "An old daikon radish born in a field in Ichikawa, Radish Grandpa loves Hakone Gora and hopes for a future that is kind to everyone.",
+    "officialSite": "https://twitter.com/daikonjiisan",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395116/images/radish-grandpa/1_a7s3mc.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e94"
+    },
+    "name": "MIX",
+    "japanese": "みっくす",
+    "mascot": "Matsue City",
+    "prefecture": "Shimane",
+    "city": "Matsue",
+    "description": "A boy hamster born in a mixed juice shop on Kyomise Matsue shopping street.",
+    "officialSite": "http://fresh-juice-smoothie.com/mix/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394984/images/mix/1_vbc6zu.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e95"
+    },
+    "name": "Shinjuku Awawa the superhero soap bubble",
+    "japanese": "新宿あわわ",
+    "mascot": "Director of Hand Washing for the Shinjuku Ward Food Sanitation Association",
+    "prefecture": "Tokyo",
+    "city": "Shinjuku, Tokyo",
+    "description": "A superhero soap bubble meant to teach others about washing their hands properly.",
+    "officialSite": "http://www.shinjukuku-shokyo.net/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394966/images/shinjuku-awawa/1_mhmiql.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e96"
+    },
+    "name": "Daizo",
+    "japanese": "だいゾウ",
+    "mascot": "Daido University Admissions and PR",
+    "prefecture": "Aichi",
+    "city": "Minami, Nagoya",
+    "description": "An elephant with a hair style commonly associated with yankee youth, holding an apple.",
+    "officialSite": "https://www.daido-it.ac.jp/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395118/images/daizo/1_hchuks.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e97"
+    },
+    "name": "Azumappi",
+    "japanese": "あずまっピー",
+    "mascot": "Ageo City Higashimachi Elementary School",
+    "prefecture": "Saitama",
+    "city": "Ageo",
+    "description": "A bird mascot for Ageo City Higashimachi Elementary School.  No other description has been found.",
+    "officialSite": "https://www.city.ageo.lg.jp/site/azumacho-elementaryschool/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394966/images/azumappi/1.jpg",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e98"
+    },
+    "name": "Ichikawa Misato Rangers (Ninnin, Dondon, Ponpon)",
+    "japanese": "市川三郷レンジャー（にんにん・どんどん・ぽんぽん",
+    "mascot": "Ichikawa City",
+    "prefecture": "Chiba",
+    "city": "Ichikawa",
+    "description": "Each character represents a special product from Ichikawa.  Ninnin represents the otsuka carrot, Dondon represents fireworks, and Ponpon represents Ichikawas seal making.",
+    "officialSite": "http://www.town.ichikawamisato.yamanashi.jp/02topics/ichikawa_misato_ranger.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394961/images/ichikawa-misato-rangers/1_tru5hz.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e99"
+    },
+    "name": "The Hashikami Kids",
+    "japanese": "はしかみキッズ",
+    "mascot": "Hashikami Town",
+    "prefecture": "Aomori",
+    "city": "Hashikami",
+    "description": "The Hashikami Kids consist of Kazemaru (sea urchin), Princess Azalea (azalea flower) and Abramme-kun (an ainame fish).  These are all special products from Hashikami.",
+    "officialSite": "https://www.town.hashikami.lg.jp/index.cfm/6,0,78,html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394993/images/hashikami-kids/1_img4fe.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e9a"
+    },
+    "name": "Yashimon♪",
+    "japanese": "やしモン♪",
+    "mascot": "The North Hachishita School District",
+    "prefecture": "Osaka",
+    "city": "Sakai, Osaka",
+    "description": "A smart and gentle scarecrow who is a bit of a glutton.",
+    "officialSite": "https://twitter.com/yashiyashimon",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394977/images/yashimon/1_kno9yj.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e9b"
+    },
+    "name": "Nabari no Hiyawan",
+    "japanese": "名張のひやわん",
+    "mascot": "Nabari City",
+    "prefecture": "Mie",
+    "city": "Nabari",
+    "description": "A dog with a Noh mask for a face.",
+    "officialSite": "http://hiyawan.jp/grape1/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395139/images/nabari-no-hiyawan/1_hmzmgl.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e9c"
+    },
+    "name": "Moriyoshi",
+    "japanese": "もり吉",
+    "mascot": "Moriguchi City",
+    "prefecture": "Osaka",
+    "city": "Moriguchi City, Osaka",
+    "description": "A naughty shiba inu whose favorite food is moriguchizuke, a type of pickled radish.",
+    "officialSite": "http://www.city.moriguchi.osaka.jp/lifeinfo/kakukanoannai/kikakuzaiseibu/kohokochoka/cityp/1524108927158.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394969/images/moriyoshi/1_wc62xf.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e9d"
+    },
+    "name": "Chibo",
+    "japanese": "ちーぼ",
+    "mascot": "Hadano City Children's Association",
+    "prefecture": "Kanagawa",
+    "city": "Hadano",
+    "description": "A young child with an acorn shaped head, he serves as a liason for the Hanado City Children's Association.",
+    "officialSite": "https://www.city.chino.lg.jp/site/kids/18.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394956/images/chibo/1_tsvlrf.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e9e"
+    },
+    "name": "Hachikazukichan and Neyamarukun",
+    "japanese": "はちかづきちゃん・ねや丸くん",
+    "mascot": "Neyagawa City",
+    "prefecture": "Osaka",
+    "city": "Neyagawa",
+    "description": "Hachikazuki-chan is based upon the famous folk tale 'Hachikazuki-hime'. Neyamaru-kun is based on the fourth son of the Sanin 3rd Lieutenant General Mincho who appear in the folk tale.  ",
+    "officialSite": "https://www.city.neyagawa.osaka.jp/other/character_introduction.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395011/images/hachikazukichan/1_bjfq6v.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003e9f"
+    },
+    "name": "Ka-min",
+    "japanese": "カーミン",
+    "mascot": "Kamikawa Town",
+    "prefecture": "Hokkaido",
+    "city": "Kamikawa",
+    "description": "Often mistaken for a rabbit, Ka-min is a forest fairy with a heart shaped face similar to the land form of Kamikawa.",
+    "officialSite": "https://www.kamikawa-navi.jp/kamin",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394958/images/ka-min/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea0"
+    },
+    "name": "Shirapen",
+    "japanese": "しらぺん",
+    "mascot": "Shirahama Town Chamber of Commerce Youth Chapter",
+    "prefecture": "Wakayama",
+    "city": "Shirahama",
+    "description": "A fairy penguin who lives in Shirahama.  Its face looks like Shirarahama Beach from the sky.",
+    "officialSite": "https://shirapen.com/shirapen/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395129/images/shirapen/1_hhxpw1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea1"
+    },
+    "name": "Natomin",
+    "japanese": "なとみん",
+    "mascot": "Naragakuen Tomigaoka Junior and Senior High School",
+    "prefecture": "Nara",
+    "city": "Nara",
+    "description": "A bird who looks over the children of Naragakuen Tomigoaka Junior and Senior High.",
+    "officialSite": "https://www.instagram.com/natomin1101/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395142/images/natomin/1_mji71w.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea2"
+    },
+    "name": "Baoru-kun and Mirai-chan",
+    "japanese": "ばおるくんとみらいちゃん",
+    "mascot": "Gotocho Commerce and Industry Association",
+    "prefecture": "Aomori",
+    "city": "Gonohe-machi",
+    "description": "Childhood friends wearing 'Gonohe Baori', a craft from Gonohe.",
+    "officialSite": "http://www.shokokai.or.jp/02/0244210000/index.htm",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395132/images/baoru-kun/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea3"
+    },
+    "name": "Tsubozamurai and Tsubonyan",
+    "japanese": "壺侍と壺にゃん",
+    "mascot": "Saga Tourism Federation",
+    "prefecture": "Saga",
+    "city": "Saga",
+    "description": "Tsubo climbed into a bowl and decided to stay, as did his nephew the cat Tsubonyan.",
+    "officialSite": "https://www.asobo-saga.jp/tsubo/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394962/images/tsubozamurai/1_i00mjs.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea4"
+    },
+    "name": "Kannachan",
+    "japanese": "かんなちゃん",
+    "mascot": "Nagano Prefecture Peace Ambassador",
+    "prefecture": "Nagano",
+    "city": "",
+    "description": "A flower that bloomed after the atomic bomb was dropped on Hiroshima.  Kannachan promotes peace.",
+    "officialSite": "https://cannaproject.wordpress.com/canna-chan/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395130/images/kannachan/1_c48fxy.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea5"
+    },
+    "name": "Kinchan and Shouchan",
+    "japanese": "きんちゃん　しょうちゃん",
+    "mascot": "Kindai University Elementary School",
+    "prefecture": "Nara",
+    "city": "Nara",
+    "description": "Kinchan and Shouchan like to dance and make friends with elementary students.  They wear the school uniform of the school they are a mascot for.",
+    "officialSite": "http://www.fes-kinder.kindai.ac.jp/fes/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395121/images/kinchan-shouchan/1_mdwwf7.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea6"
+    },
+    "name": "Zenkaikun",
+    "japanese": "禅海くん",
+    "mascot": "Nakatsu City Shimoge Chamber of Commerce",
+    "prefecture": "Oita",
+    "city": "Nakatsu",
+    "description": "A character inspired by Kazuhisa Zenkai, the model of the protagonist of Hiroshi Kikuchi's novel 'Beyond the Ongaku'. ",
+    "officialSite": "http://nakatsu-cci.org/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395016/images/zenkaikun/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea7"
+    },
+    "name": "Komakappa",
+    "japanese": "こまかっぱ",
+    "mascot": "Komagane City",
+    "prefecture": "Nagano",
+    "city": "Komagane",
+    "description": "A kappa born from the clean waters of the Japanese Alps.  His hat is in the shape of the central Japanese Alps.",
+    "officialSite": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/PRcharacterkomakappa/2058.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394975/images/komakappa/1_ub5rdo.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea8"
+    },
+    "name": "Caromi",
+    "japanese": "キャロミ",
+    "mascot": "Hiroshima Institute of Technology, Female Student Career Design Center",
+    "prefecture": "Hiroshima",
+    "city": "Saeki, Hiroshima",
+    "description": "Born in Miyake forest, Caromi is a female engineer who wears a carrot on her head.  She is also 3 carrots tall.  She works to recruit female engineers all across Japan to come study at HIT.",
+    "officialSite": "http://www.it-hiroshima.ac.jp/jcd/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395138/images/caromi/1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ea9"
+    },
+    "name": "Notty",
+    "japanese": "のっティ",
+    "mascot": "Nonoichi City",
+    "prefecture": "Ishikawa",
+    "city": "Nonoichi",
+    "description": "A mysterious kimono that lives in Nonoichi City. Although Notty is laid back, Notty is also a mischievous glutton.",
+    "officialSite": "https://www.city.nonoichi.lg.jp/site/notty/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394966/images/notty/1_cfh3qp.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eaa"
+    },
+    "name": "Sakaron",
+    "japanese": "さかろん",
+    "mascot": "Sakado City",
+    "prefecture": "Saitama",
+    "city": "Sakado",
+    "description": "It looks like a dog but is a self proclaimed cherry blossom fairy.  She lives in a secret room in Sakado City Hall.",
+    "officialSite": "https://www.city.sakado.lg.jp/site/sakaron/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395118/images/sakaron/1_shfrbk.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eab"
+    },
+    "name": "Kamirin",
+    "japanese": "かみりん",
+    "mascot": "Kamijima Town Chamber of Commerce and Industry",
+    "prefecture": "Ehime",
+    "city": "Kamijima",
+    "description": "Kamirin protects the gods who live in the sea in Kamijima.  She has a bit of seaweed and a cherry blossom as a hair ornament.",
+    "officialSite": "https://www.kamijima.or.jp/kamirin",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394971/images/kamarin/1_soxgcp.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eac"
+    },
+    "name": "Nejiri Honnyo",
+    "japanese": "ねじり ほんにょ",
+    "mascot": "Kurihara PR",
+    "prefecture": "Miyagi",
+    "city": "Kurihara",
+    "description": "A sentient stack of harvested rice.  He loves to be in the sun.",
+    "officialSite": "https://www.kurihara-kb.net/publics/index/303/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395108/images/nejiri-honnyo/1_tm8i2u.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ead"
+    },
+    "name": "Kawabe & Kawamin",
+    "japanese": "かわべえとかわみん",
+    "mascot": "Kawashima Town",
+    "prefecture": "Saitama",
+    "city": "Kawashima",
+    "description": "Kawabe is a gourmet grandfather who loves the rich nature of Kawashima Town and knows everything about the town, and his granddaughter Kawamin.",
+    "officialSite": "https://www.town.kawajima.saitama.jp/2227.htm",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394967/images/kawabe-kawamin/1_lgnvmb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eae"
+    },
+    "name": "Iseki-kun & Yayoi-chan",
+    "japanese": "いせきくん・やよいちゃん",
+    "mascot": "Harima Town",
+    "prefecture": "Hyogo",
+    "city": "Harima",
+    "description": "An energetic brother and sister duo who live in the Onaka ruins from the Yayoi period.",
+    "officialSite": "https://www.town.harima.lg.jp/kikaku/chosejoho/gaiyo/profile/mascot.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395122/images/isekikun-yayoichan/1_jipxxt.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eaf"
+    },
+    "name": "Mebae-chan",
+    "japanese": "めばえちゃん",
+    "mascot": "National University Corporation Fukushima University",
+    "prefecture": "Fukushima",
+    "city": "Fukushima",
+    "description": "A fairy tree who lives deep in the forest of Fukushima Prefecture.",
+    "officialSite": "https://www.fukushima-u.ac.jp/mebaeweb/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394963/images/mebae-chan/2_lr1kxt.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb0"
+    },
+    "name": "Saku-Lucky",
+    "japanese": "さくらっきー",
+    "mascot": "Ogawara-machi",
+    "prefecture": "Miyagi",
+    "city": "Ogawara",
+    "description": "The head is the 'cherry blossom' of the town flower, the face is the 'swan' of the town bird, and the body is the 'plum' of the town tree.",
+    "officialSite": "http://www.oogawara.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395130/images/saku-lucky/1_hzyylc.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb1"
+    },
+    "name": "Saba Kapppa",
+    "japanese": ":鯖カッパ",
+    "mascot": "Amagasaki Municipal Shizukuishi Elementary School",
+    "prefecture": "Niigata",
+    "city": "Kashiwazaki",
+    "description": "A kappa born from the thoughts of the school children.",
+    "officialSite": "http://kedu.kenet.ed.jp/sabaishi/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394985/images/saba-kappa/1_z08oga.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb2"
+    },
+    "name": "Tomipan",
+    "japanese": "とみぱん",
+    "mascot": "Fukamachi",
+    "prefecture": "Gifu",
+    "city": "Fuka",
+    "description": "An ancient rice bun enlisted to represent Fukamachi, a 'just right' town.",
+    "officialSite": "https://www.tomipan.com/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394968/images/tomipan/1_ycgmqq.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb3"
+    },
+    "name": "Hanadamoutarou",
+    "japanese": "花田舞太郎",
+    "mascot": "Kitahiroshima Town",
+    "prefecture": "Hokkaido",
+    "city": "Kitahiroshima",
+    "description": "A decorative cattle from Kitahiroshima Town's UNESCO-registered intangible cultural heritage 'Gamo Hanada Ue'",
+    "officialSite": "http://www.kitahiro.jp/moutaro_top/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395097/images/hanadamoutarou/1_mkiv0k.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb4"
+    },
+    "name": "Omuran",
+    "japanese": "おむらんちゃん",
+    "mascot": "Omura City",
+    "prefecture": "Nagasaki",
+    "city": "Omura",
+    "description": "A cherry blossom fairy that loves to run.",
+    "officialSite": "https://www.city.omura.nagasaki.jp/kouhou/shise/koho/koho/omuranchan/profile.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395044/images/omuran/1_m0qa0n.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb5"
+    },
+    "name": "Happy Komachan",
+    "japanese": "ハッピーこまちゃん",
+    "mascot": "Yashio City",
+    "prefecture": "Saitama",
+    "city": "Yashio",
+    "description": "A komatsuma (Japanese mustard green) born in the Komatsu field in Yashio.",
+    "officialSite": "https://www.city.yashio.lg.jp/kids/komachanroom/kids-komachan.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395128/images/happy-komachan/1_wivzrr.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb6"
+    },
+    "name": "Horuru",
+    "japanese": "ホロル",
+    "mascot": "Shirosato Town",
+    "prefecture": "Ibaraki",
+    "city": "Shirosato",
+    "description": "An owl who lives at the top of a castanopsis tree.",
+    "officialSite": "http://www.town.shirosato.lg.jp/page/page001642.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395074/images/horuru/1_uokzrw.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb7"
+    },
+    "name": "Otakuki",
+    "japanese": "おたっきー",
+    "mascot": "Otaki Town",
+    "prefecture": "Chiba",
+    "city": "Otaki",
+    "description": "A warrior based on the motif of Tadakatsu Honda, the lord of the Otaki Castle.",
+    "officialSite": "http://www.town.otaki.chiba.jp/index.cfm/9,0,53,120,html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394983/images/otakuki/1_ffb7ib.png"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb8"
+    },
+    "name": "Kamitan",
+    "japanese": "かみたん",
+    "mascot": "Kaminokawa City",
+    "prefecture": "Tochigi",
+    "city": "Kaminokawa",
+    "description": "The hat is the image of the town bird 'Shirasagi', and the body depicts the fruits of Kinugawa, Tagawa, and Egawa flowing through the town, 'Yugao', the flower of the town, and 'Kampyo', a special product.",
+    "officialSite": "https://www.town.kaminokawa.lg.jp/0184/info-0000000671-0.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395120/images/kamitan/1_r16vjb.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eb9"
+    },
+    "name": "Michikaze-kun",
+    "japanese": "道風くん",
+    "mascot": "Kasugai Town",
+    "prefecture": "Aichi",
+    "city": "Kasugai",
+    "description": "A good person who is said to have been born in the past.",
+    "officialSite": "https://www.city.kasugai.lg.jp/shisei/kasugai/shonomachi/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395143/images/michikaze-kun/1_tyk1vm.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003eba"
+    },
+    "name": "Nyaganohara",
+    "japanese": "にゃがのはら",
+    "mascot": "Naganoharamachi",
+    "prefecture": "Gunma",
+    "city": "Naganohara",
+    "description": "A vibrant cat who loves the nature and culture of Naganohara Town.  She seems to be working at her own pace every day, wearing her favorite hat and loincloth.",
+    "officialSite": "http://www1.town.naganohara.gunma.jp/www/contents/1490934689269/index.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395127/images/nyaganohara/1_dwxqfk.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ebb"
+    },
+    "name": "Sayarin",
+    "japanese": "さやりん",
+    "mascot": "Sayama City",
+    "prefecture": "Osaka",
+    "city": "Sayama",
+    "description": "A blend of the legend of Sagamiike Ryujin and the cherry blossoms surrounding Sayamaike.",
+    "officialSite": "http://www.city.osakasayama.osaka.jp/gyosei/shinogaiyo/purofuiru/1410223915245.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394955/images/sayarin/1_dmb4le.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ebc"
+    },
+    "name": "Kekyokichi",
+    "japanese": "ケキョきち",
+    "mascot": "Bokujuku Onsen Tourist Association",
+    "prefecture": "Iwate",
+    "city": "Shizukuishi",
+    "description": "An uguishu (Japanese bush warbler) that lives in Iwate prefecture.",
+    "officialSite": "https://ousyukuonsen.com/kekyokichi/",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632394959/images/kekyokichi/1_ucsae4.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ebd"
+    },
+    "name": "Tomatine",
+    "japanese": "とまてぃーぬ",
+    "mascot": "Aichi Prefectural Tokai Commercial High School",
+    "prefecture": "Aichi",
+    "city": "Tokai",
+    "description": "A sentient tomato",
+    "officialSite": "https://tokai-ch.aichi-c.ed.jp/contents/banner/tomato/main.html",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395139/images/tomatine/1_vwith4.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "614df1d3c139bb06a7003ebe"
+    },
+    "name": "Ozccho",
+    "japanese": "おずっちょ",
+    "mascot": "Motosumi Ozdori Shopping Street Promotion Association",
+    "prefecture": "Kanazawa",
+    "city": "Kawasaki",
+    "description": "A mother who works hard so that everyone can learn more about the shopping street.",
+    "officialSite": "",
+    "picture": "https://res.cloudinary.com/dygjcgbh3/image/upload/v1632395120/images/ozccho/1_pzmza5.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6152c6bb9be255349949bc73"
+    },
+    "name": "Kumamon",
+    "japanese": "くまモン",
+    "mascot": "Kumamoto prefecture",
+    "prefecture": "Kumamoto",
+    "city": "",
+    "description": "The winner of the 2011 YuruChara Grand Prix",
+    "picture": "http://res.cloudinary.com/dygjcgbh3/image/upload/v1632814777/oubzognygazwo6sd4wcn.png",
+    "favourite": false
+  },
+  {
+    "_id": {
+      "$oid": "615387d8019a61619cb1f09a"
+    },
+    "name": "Shippei-kun",
+    "japanese": "しっぺいくん",
+    "mascot": "Iwata",
+    "prefecture": "Shizuoka",
+    "city": "Iwata",
+    "description": "A white dog who loves the Jubilo Iwata soccer team",
+    "picture": "http://res.cloudinary.com/dygjcgbh3/image/upload/v1632864215/urpeaxvzwoyemobvsguw.jpg",
+    "favourite": true
+  }
+]
