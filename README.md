@@ -21,7 +21,6 @@ _An encyclopaedia for Japanese mascots_
 
 yuru-chara (**ゆるキャラ**): a Japanese term for mascot characters; created to promote a place or region, event, organisation or business.
 
-
 yuru-chara is a mobile application built to teach Japanese culture through mascot characters. Built using React Native with Expo for the front end, and Express.js and Mongoose on the back end.
 
 ## Getting Started
@@ -46,7 +45,7 @@ cd server
 
 5. Run `npm install` to install server dependencies
 6. Make sure MongoDB is running
-7. Run `npm run dev:seed` to populate your database
+7. Run `npm run seed` to populate your database
 8. Run `node index.js` or `nodemon index.js` to start the back-end
 9. Start learning about Japanese mascots!
 
